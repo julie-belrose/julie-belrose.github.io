@@ -1,106 +1,84 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
-    "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
+    "name": "Julie Belrose",
+    "label": "Développeuse Back end",
+    "image": "/me_avatar2.jpg",
+    "email": "juliebelrose.pro@gmail.com",
+    "phone": "+33 6 24 59 58 77",
     "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
+    "summary": "Développeuse spécialisée en back-end, en transition après une solide expérience en développement full stack. Reconnue pour ma capacité à résoudre des problèmes complexes, améliorer la robustesse des applications, et réduire considérablement les incidents grâce à des refactorings structurants et des optimisations majeures.",
     "theme": "default",
     "location": {
       "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "postalCode": "69009",
+      "city": "Lyon",
+      "countryCode": "FR",
+      "region": "Auvergne-Rhône-Alpes"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
+        "username": "julie-belrose",
+        "url": "https://linkedin.com/in/julie-belrose"
       },
       {
         "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
+        "username": "@julie_belrose",
+        "url": "https://x.com/julie_belrose"
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "julie-belrose",
+        "url": "https://github.com/julie-belrose"
       }
     ]
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
-      "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
-      "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
+      "name": "UMI",
+      "position": "Développeuse full stack",
+      "location_type": "Hybride",
+      "location": "Lyon, Auvergne-Rhône-Alpes",
+      "url": "https://umi-innovation.com/fr/",
+      "startDate": "2021-11-04",
+      "endDate": "2023-11-04",
+      "summary": "Développer et maintenir des applications web en utilisant Express.js, Angular et MongoDB. Collaborer avec l'équipe pour mettre en œuvre de nouvelles fonctionnalités et corriger les bugs.",
       "highlights": [
         "Improved website performance by optimizing code"
       ],
       "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
+        "Collaboration avec des développeurs seniors pour concevoir et mettre en œuvre des applications web à l'aide de frameworks JavaScript modernes",
+        "Développement de modules clés pour cinq applications microservices, avec Express.js (Node.js) pour le back-end et Angular (v8-14) pour le front-end",
+        "Optimisation des performances dans les microservices Express.js (Node.js) : gestion des erreurs et amélioration des requêtes",
+       "Conception et maintenance des bases de données avec Mongoose et MongoDB : création de schémas robustes",
+        "Implémentation de fonctionnalités complètes : système de notifications, génération de PDF dynamiques via EJS et Excel",
+        "Collaboration en pair programming pour un système de notifications sur une plateforme sociale",
+        "Création de graphiques interactifs (via Chart.js) pour des dashboards utilisateurs, avec intégration en temps réel des données via l'API",
+        "Qualité et méthodologie : application des pratiques du clean code, revues de code, des tests manuels, et documentation technique des incidents",
+        "Formation en TDD avec Jest : pratique du Test-Driven Development pour le back-end et le front-end, avec l’utilisation de Jest",
+        "Référente du design system : collaboration avec une designer UI/UX et la Product Owner pour garantir la cohérence visuelle",
+        "Agilité : participation active aux cérémonies Scrum"
       ],
       "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
+        "Refactorisation stratégique d'une fonctionnalité front-end complexe : optimisé le code Angular pour réduire les incidents de 98 % et améliorer l'expérience utilisateur"
       ],
       "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
-      ]
-    },
-    {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
-      "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
-      "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
-      ],
-      "skills": [
-        "Python",
-        "Django",
-        "SQL",
-        "Git"
-      ]
-    },
-    {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-      "highlights": [
-        "Completed several client projects successfully"
-      ],
-      "skills": [
+        "MongoDB",
+        "NodeJS",
+        "Mongoose",
+        "ExpressJS",
+        "Jest",
+        "Docker",
+        "Drone",
+        "Rancher",
+        "Sentry",
+        "MailGun",
+        "Angular",
+        "Chartjs",
         "HTML",
-        "CSS"
+        "CSS",
+        "SASS",
+        "Git"
       ]
     }
   ],
@@ -119,73 +97,219 @@
   ],
   "education": [
     {
-      "institution": "State University",
-      "url": "https://stateuniversity.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
-      "score": "3.8",
+      "institution": "Formation professionnelle  développeuse back-end  Node.js spécialisation data",
+      "url": "https://oclock.io/formations/developpeur-web-web-mobile",
+      "area": "O'clock - École Tech de développement web en téléprésentiel",
+      "studyType": "DUT",
+      "startDate": "2020-12-01",
+      "endDate": "2021-05-01",
+      "score": "",
       "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
-      ]
-    },
-    {
-      "institution": "Tech Institute",
-      "url": "https://techinstitute.edu",
-      "area": "Software Engineering",
-      "studyType": "Master",
-      "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
-      "score": "3.9",
-      "courses": [
-        "SE201 - Advanced Software Development",
-        "SE202 - Software Architecture and Design"
-      ]
-    },
-    {
-      "institution": "City College",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
-      "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
-      "score": "3.7",
-      "courses": [
-        "IT101 - Networking Fundamentals",
-        "IT102 - Database Management Systems"
       ]
     }
   ],
   "certificates": [
     {
-      "name": "Full Stack Web Development",
-      "date": "2023-05-01",
-      "issuer": "Online University",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
+      "name": "Cybersécurité Google Professional Certificate",
+      "date": "2024-12-01",
+      "startDate": "",
+      "endDate": "",
+      "issuer": "Google Career Certificates (Coursera) - En cours",
+      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+      "teaching": "Enseigné  en Anglais",
+      "courses": [
+        "Fondamentaux de la cybersécurité",
+        "Gestion des risques de sécurité",
+        "réseaux et sécurité des réseaux",
+        " Linux et SQL",
+        "Ressources numériques, menaces et vulnérabilités",
+         "détection et réponse",
+        "Automatiser les tâches de cybersécurité avec Python",
+        "Application : se préparer aux métiers de la cybersécurité"
+      ]
+    },
+    {
+      "name": "Titre professionnel développeur web et web mobile",
+      "date": "2022-05-01",
+      "issuer": "O'clock - École Tech de développement web en téléprésentiel"
+    },
+    {
+      "name": "Maîtrise de la qualité en projet web - niveau confirmé (720 points)",
+      "date": "2021-11-01",
+      "startDate": "",
+      "endDate": "",
+      "issuer": "Opquast",
+      "url": "https://oqs.li/85O93J"
+    }
+  ],
+  "courses": [
+    {
+      "name": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
+      "date": "2024-12-01",
+      "startDate": "",
+      "endDate": "",
+      "issuer": "Google Cloud Platform (Coursera) - En cours ",
+      "url": "https://www.coursera.org/learn/google-cloud-java-spring",
+      "teaching": "Enseigné  en Anglais",
+      "courses": [
+        "Google Cloud Platform",
+        "Cloud SQL",
+        "Pub/Sub",
+        "Spring Integration",
+        "Cloud Trace"
+      ]
+    },
+    {
+      "name": "Formation de software craftsmanship",
+      "date": "2024-10-01",
+      "startDate": "",
+      "endDate": "",
+      "issuer": "Plateforme spécialisée en développement web",
+      "url": "https://academy.captaindev.io/coding-dojo-zero-to-craft"
+    },
+    {
+      "name": "Spring Boot 3 : Simplife le développement d'applications Java",
+      "date": "2024-08-01",
+      "startDate": "",
+      "endDate": "",
+      "issuer": "Dyma.fr",
+      "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/64799f7159ebb4f1e99bfb8b"
+    },
+    {
+      "name": "Java SE 21 : Langage polyvalent pour applications multiplateformes",
+      "date": "2024-08-01",
+      "startDate": "",
+      "endDate": "",
+      "issuer": "Dyma.fr",
+      "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/6410ba8d79bdeb036b8383b9"
     }
   ],
   "skills": [
     {
-      "name": "Figma",
-      "level": "Expert",
-      "keywords": [
-        "Design",
-        "UI"
-      ]
-    },
-    {
-      "name": "Gitlab",
+      "name": "NodeJS",
       "level": "Intermediate",
       "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
+        "Web Development",
+        "Backend",
+        "JavaScript",
+        "Server"
       ]
     },
     {
-      "name": "HTML",
+      "name": "ExpressJS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "JavaScript",
+        "Server"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "Base de donnée",
+        "NoSQL"
+      ]
+    },
+    {
+      "name": "Mongoose",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "Base de donnée",
+        "NoSQL",
+        "ODM"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server"
+      ]
+    },
+    {
+      "name": "SpringBoot",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server"
+      ]
+    },
+    {
+      "name": "Maven",
+      "level": "junior",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "Build"
+      ]
+    },
+    {
+      "name": "Gradle",
+      "level": "junior",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "Build"
+      ]
+    },
+    {
+      "name": "Jest",
+      "level": "junior",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "Test",
+        "TDD",
+        "Test-Driven-development"
+      ]
+    },
+    {
+      "name": "JUnit",
+      "level": "junior",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "Test",
+        "TDD",
+        "Test-Driven-development"
+      ]
+    },
+    {
+      "name": "Tests",
+      "level": "junior",
+      "keywords": [
+        "Software craftsmanship",
+        "TDD",
+        "Test-driven-development"
+      ]
+    },
+    {
+      "name": "Angular",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -193,7 +317,7 @@
       ]
     },
     {
-      "name": "CSS",
+      "name": "SASS",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -212,16 +336,6 @@
       ]
     },
     {
-      "name": "Tailwind",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
-    },
-    {
       "name": "TypeScript",
       "level": "Intermediate",
       "keywords": [
@@ -232,17 +346,7 @@
       ]
     },
     {
-      "name": "Node",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
-    },
-    {
-      "name": "MySQL",
+      "name": "SQL",
       "level": "Intermediate",
       "keywords": [
         "Databases",
@@ -271,43 +375,67 @@
       ]
     },
     {
-      "name": "Next.js",
-      "level": "Beginner",
+      "name": "macOS",
+      "level": "Expert",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
+        "System exploitation"
       ]
     },
     {
-      "name": "React",
-      "level": "Intermediate",
+      "name": "Linux",
+      "level": "Expert",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
+        "System exploitation"
+      ]
+    },
+    {
+      "name": "Windows",
+      "level": "Expert",
+      "keywords": [
+        "System exploitation"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Intermediate"
+      "fluency": "B1",
+      "url": "https://cert.efset.org/CeWJzX"
     }
   ],
   "interests": [
     {
-      "name": "Technology",
+      "name": "Blockchain",
       "keywords": [
         "AI",
         "Blockchain"
+      ]
+    },
+    {
+      "name": "Ethereum",
+      "keywords": [
+        "AI",
+        "Blockchain",
+        "Ethereum"
+      ]
+    },
+    {
+      "name": "Web3",
+      "keywords": [
+        "AI",
+        "Blockchain"
+      ]
+    },
+    {
+      "name": "AI",
+      "keywords": [
+        "AI"
+      ]
+    },
+    {
+      "name": "Cybersécurité",
+      "keywords": [
+        "AI"
       ]
     }
   ],
@@ -319,46 +447,62 @@
   ],
   "projects": [
     {
-      "name": "Personal Portfolio",
-      "isActive": false,
-      "description": "A personal portfolio website to showcase my projects and skills.",
-      "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
-      ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Weather App",
+      "name": "Coaching",
       "isActive": true,
-      "description": "A web application that provides weather information for any location.",
+      "description": "Conception d'un site web pour suivre efficacement les 30 étudiants par promotion, avec 4 promotions par mois, en post-formation d'O'clock, offrant un outil centralisé pour un suivi personnalisé des apprenants",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Projet de développement de fin de formation"
       ],
-      "url": "https://weatherapp.com"
+      "url": "https://www.youtube.com/live/LvqX92TIq8s?si=UXyIQCmjTwz-Df7u&t=1339",
+      "github": "https://github.com/julie-belrose/Apotheose_O-Clock_Coaching",
+      "technos": [
+        "React",
+        "NodeJS",
+        "SQL",
+        "PostgreSQL",
+        "Sqitch",
+        "Heroku"
+      ]
     },
     {
-      "name": "Task Manager",
+      "name": "Portfolio Personnel",
       "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
-      "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
-      ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
+      "description": "Un site web de portfolio personnel pour présenter mes projets et mes compétences.",
+      "url": "",
+      "github": "https://github.com/julie-belrose/portfolio",
+      "technos": [
+        "Astro",
+        "Tailwind",
+        "TypeScript"
+      ]
     },
     {
-      "name": "E-commerce Site",
-      "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
+      "name": "Tennis App",
+      "isActive": true,
+      "description": "Une application CRUD back-end represented le classement des joueurs de tennis",
       "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Construit avec Java SE 21 aet Spring Boot 3"
       ],
-      "url": "https://ecommerce.com"
+      "github": "https://github.com/julie-belrose/tennis",
+      "technos": [
+        "Java",
+        "Spring Boot",
+        "Spring",
+        "Docker",
+        "JUnit"
+      ]
+    },
+    {
+      "name": "App Ethereum",
+      "isActive": true,
+      "description": "Une workshop provenant d'une plateforme tech Gitnation",
+      "github": "https://github.com/julie-belrose/Workshop_Ethereum-fullstack",
+      "technos": [
+        "React",
+        "Vite",
+        "Etherjs",
+        "Hardhat"
+      ]
     }
   ]
 }
