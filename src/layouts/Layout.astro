@@ -17,7 +17,7 @@ const { image, summary, url, theme } = basics;
 		<title>{title}</title>
 		<meta name="description" content={summary} />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
 		<link rel="preload" as="image" href={image} />
 
 		<meta property="og:url" content={url} />
@@ -35,7 +35,8 @@ const { image, summary, url, theme } = basics;
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim" />
 
-		<link rel="stylesheet" href="/themes/themes.css" />
+		<link rel="stylesheet" href="/portfolio/themes/themes.css" />
+
 	</head>
 	<body data-theme={theme} class="relative bg-skin-fill">
 		<div class="absolute top-0 -z-10 h-full w-full print:hidden">
