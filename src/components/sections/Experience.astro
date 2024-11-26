@@ -2,21 +2,34 @@
 import Section from "../Section.astro"
 import { work } from "@cv"
 
-import HTML from "@/icons/html.astro"
-import CSS from "@/icons/css.astro"
-import JavaScript from "@/icons/javascript.astro"
+import HTML from "../../icons/Programming/frontend/html.astro"
+import CSS from "../../icons/Programming/frontend/css.astro"
+import JavaScript from "../../icons/Programming/frontend/javascript.astro"
 import TypeScript from "@/icons/type.astro"
-import React from "@/icons/react.astro"
-import Node from "@/icons/node.astro"
-import MySQL from "@/icons/sql.astro"
-import Git from "@/icons/git.astro"
-import GitHub from "@/icons/GitHub.astro"
-import Tailwind from "@/icons/tailwind.astro"
+import React from "../../icons/Programming/frontend/react.astro"
+import NodeJS from "../../icons/Programming/backend/node.astro"
+import MySQL from "../../icons/Programming/backend/mysql.astro"
+import Git from "../../icons/Programming/git.astro"
+import GitHub from "../../icons/github.astro"
+import Tailwind from "../../icons/Programming/frontend/tailwind.astro"
 import Next from "@/icons/next.astro"
-import Swift from "@/icons/swift.astro"
-import SwiftUI from "@/icons/swiftui.astro"
-import Kotlin from "@/icons/kotlin.astro"
+import Swift from "../../icons/Programming/backend/swift.astro"
+import SwiftUI from "../../icons/Programming/frontend/swiftui.astro"
+import Kotlin from "../../icons/Programming/backend/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
+import Angular from "../../icons/Programming/frontend/angular.astro"
+import Docker from "../../icons/Programming/CI-CD/docker.astro"
+import Drone from "../../icons/Programming/CI-CD/drone.astro"
+import Rancher from "../../icons/Programming/CI-CD/rancher.astro";
+import ExpressJS from "../../icons/Programming/backend/expressjs.astro";
+import MongoDB from "../../icons/Programming/backend/mongodb.astro";
+import MailGun from "../../icons/Programming/mailgun.astro";
+import Sentry from "../../icons/Programming/CI-CD/sentry.astro";
+import SASS from "../../icons/Programming/frontend/sass.astro";
+import  Mongoose from "../../icons/Programming/backend/mongoose.astro";
+import Jest from "../../icons/Programming/jest.astro";
+import Chartjs from "../../icons/Programming/frontend/chartjs.astro";
+
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -24,7 +37,7 @@ const SKILLS_ICONS: Record<string, any> = {
   JavaScript,
   TypeScript,
   React,
-  Node,
+  NodeJS,
   MySQL,
   Git,
   GitHub,
@@ -34,9 +47,21 @@ const SKILLS_ICONS: Record<string, any> = {
   SwiftUI,
   Kotlin,
   Flutter,
+  Angular,
+  Docker,
+  Drone,
+  MailGun,
+  Sentry,
+  ExpressJS,
+  MongoDB,
+  Mongoose,
+  Rancher,
+  SASS,
+  Jest,
+  Chartjs
 }
 ---
-<Section className={Astro.props.className} title="Experience">
+<Section className={Astro.props.className} title="Expériences">
   <ul class="flex flex-col">
     {work.map(({ name, startDate, endDate, position, summary, responsibilities, achievements, url, skills, location, location_type }) => {
       const startYear = new Date(startDate).getFullYear()
@@ -76,7 +101,7 @@ const SKILLS_ICONS: Record<string, any> = {
               <div class="mt-4  print:gap-0 flex flex-col gap-4 print:text-xs text-sm" x-data="{ expanded: false }">
                 {summary && (
                   <div class="flex flex-col gap-1">
-                    <h4>Summary:</h4>
+                    <h4>Sommaire:</h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
                       {Array.isArray(summary) ? (
                         summary.map(item => (
@@ -93,7 +118,7 @@ const SKILLS_ICONS: Record<string, any> = {
                 <div class="md:after:from-skin-hue dark:md:after:to-skin-hue/0  flex relative flex-col max-sm:!h-auto print:!h-auto gap-4 print:gap-2 md:after:bg-gradient-to-t md:after:absolute md:after:bottom-0 md:after:w-full print:after:hidden md:after:h-12 md:after:content-[''] " :class="expanded ? 'after:hidden' : ''" x-show="expanded" x-collapse.min.50px>
                 {responsibilities && (
                   <div class="flex flex-col gap-1">
-                    <h4>Responsibilities:</h4>
+                    <h4>Responsabilités:</h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
                       {responsibilities.map(responsibility => (
                         <li>{responsibility}</li>
@@ -104,7 +129,7 @@ const SKILLS_ICONS: Record<string, any> = {
 
                 {achievements && (
                   <div class="flex flex-col gap-1">
-                    <h4>Achievements:</h4>
+                    <h4>Réalisations </h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
                       {achievements.map(achievement => (
                         <li>{achievement}</li>
@@ -115,7 +140,7 @@ const SKILLS_ICONS: Record<string, any> = {
                 </div>
                 
                 <button @click="expanded = ! expanded" class="print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-base flex">
-                  <span x-text="expanded ? 'Show less' : 'Show more'">Show more</span>
+                  <span x-text="expanded ? 'Afficher moins' : 'Afficher plus'">Show more</span>
                   <svg class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out" :class="{ 'rotate-180': expanded }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </button>
 
