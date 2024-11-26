@@ -7,11 +7,14 @@ import Experience from "@/components/sections/Experience.astro";
 import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
+import  Interest  from "@/components/sections/Interest.astro";
 import Tail from "@/components/sections/Tail.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
+
 import { basics } from "@cv";
+import Languages from "@/components/sections/Languages.astro";
 const { name, label } = basics;
 ---
 
@@ -26,7 +29,9 @@ const { name, label } = basics;
 			<Experience className="print:col-span-3" />
 			<Projects className="print:hidden" />
 			<Skills className="print:hidden" />
+			<Languages className="print:hidden" />
 			<Education className="order-first" />
+			<Interest className="print:hidden" />
 		</div>
 		<Tail />
 	</main>
@@ -37,7 +42,7 @@ const { name, label } = basics;
 <style>
 	@page {
 		size: auto;
-		margin: 0mm;
+		margin: 0;
 	}
 	main {
 		margin: auto;

@@ -1,0 +1,37 @@
+---
+import Section from "../Section.astro";
+
+import Blockchain from "@/icons/Programming/blockchain/blockchain.astro";
+import Web3 from "@/icons/Programming/blockchain/web3.astro";
+import Ethereum from "@/icons/Programming/blockchain/ethereum.astro";
+import AI from "@/icons/Programming/ai.astro";
+import Cybersécurité from "@/icons/Programming/backend/security.astro";
+
+import { interests } from "@cv";
+
+
+const SKILLS_ICONS: Record<string, any> = {
+  Ethereum,
+  Blockchain,
+  Web3,
+  AI,
+  Cybersécurité
+};
+---
+
+<Section className={Astro.props.className} title="Intérêts">
+  <ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
+    {
+      interests.map(({ name }) => {
+        const iconName = name;
+        const Icon = SKILLS_ICONS[iconName];
+
+        return (
+          <li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
