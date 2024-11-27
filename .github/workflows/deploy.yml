@@ -2,7 +2,10 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]  # Trigger the workflow on push to the 'main' branch
+    # Trigger the workflow on push to the 'main' branch
+    branches:
+      - main
+      - development
   workflow_dispatch:     # Allows the workflow to be manually triggered from the Actions tab
 
 permissions:
