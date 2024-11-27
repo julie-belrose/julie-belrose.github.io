@@ -37,6 +37,8 @@ import Sqitch from "@/icons/Programming/backend/sql.astro";
 import Hardhat from "@/icons/Programming/blockchain/hardhat.astro";
 import Vite from "@/icons/Programming/vite.astro";
 import Etherjs from "@/icons/Programming/etherjs.astro";
+import GitHubAction from "@/icons/Programming/CI-CD/githubaction.astro";
+import AstroIcon from "@/icons/Programming/astroicon.astro";
 
 const TECHNO_ICONS: Record<string, any> = {
 	HTML,
@@ -72,14 +74,16 @@ const TECHNO_ICONS: Record<string, any> = {
 	Sqitch,
 	Hardhat,
 	Vite,
-	Etherjs
+	Etherjs,
+	GitHubAction,
+	AstroIcon
 }
 ---
 
 <Section className={Astro.props.className} title="Projets">
 	<div class="grid grid-cols-1 gap-3 md:grid-cols-2 print:flex print:flex-col">
 		{
-			projects.map(({ url, description, highlights, name, isActive, github, technos }) => {
+			projects.map(({ url , description, highlights, name, isActive, github, technos}) => {
 				return (
 					<div role="contentinfo" class="grid-span-1 ring-skin-muted relative flex flex-col rounded-md bg-skin-button-muted/50 p-5 shadow-sm ring-1">
 						<div class="flex items-center justify-between space-x-[10px]">
@@ -116,17 +120,15 @@ const TECHNO_ICONS: Record<string, any> = {
 						</ul>
 
 						<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap [&>li>svg]:tm-left-0 [&>li>svg]:size-5 [&>li]:text-sm py-3">
-							{technos?.map((name ) => {
-								const iconName = name === "Spring Boot" ? "SpringBoot" : name;
-								const Icon = TECHNO_ICONS[iconName];
-
-								return (
+							{technos?.map(({ icon , name}) => {
+								const Icon = TECHNO_ICONS[icon];
+                  return (
 									<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-										{Icon && <Icon />} <span>{name}</span>
+										{Icon && <Icon />} {/* Si l'icône existe, affichez-la */}
+										<span>{name ? name : icon}</span>
 									</li>
 								);
-							})
-							}
+							})}
 						</ul>
 
 					</div>
