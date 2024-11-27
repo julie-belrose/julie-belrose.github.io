@@ -1,34 +1,39 @@
-name: Deploy
+name: Deploy to GitHub Pages
 
 on:
+  # Trigger the workflow every time you push to the `main` branch
+  # Using a different branch name? Replace `main` with your branch’s name
   push:
     tags:
-      - '2.*.*'
-      - '2.*.*-RC*'
+      - '*'
+  # Allows you to run this workflow manually from the Actions tab on GitHub.
+  workflow_dispatch:
+
+# Allow this job to clone the repo and create a page deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  deploy-main:
-    if: startsWith(github.ref, 'refs/tags/') && github.ref == 'refs/tags/2.*.*'  # check tags like '1.0.0', '1.1.0'
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Checkout your repository using git
+        uses: actions/checkout@v4
+      - name: Install, build, and upload your site
+        uses: withastro/action@v3
+        with:
+         node-version: 18 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
+         package-manager: npm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
 
-      - name: Build and Deploy to Production
-        run: |
-          echo "Building and deploying to main..."
-          # Ajouter ici tes étapes de build et de déploiement pour la branche `main`
-
-  build-dev:
-    if: startsWith(github.ref, 'refs/tags/') && contains(github.ref, '-rc')  # Tags like 1.0.2-rc1, 1.1.0-rc2
+  deploy:
+    needs: build
     runs-on: ubuntu-latest
-
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}  # The URL of the deployed page
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Build for Development
-        run: |
-          echo "Building for development..."
-          # Ajouter ici tes étapes de build pour la branche `development`
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
