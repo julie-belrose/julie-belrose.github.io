@@ -4,9 +4,8 @@ import Section from "@/components/Section.astro";
 import Mail from "@/icons/mail.astro";
 import Phone from "@/icons/phone.astro";
 import X from "@/icons/x.astro";
-import LinkedIn from "@/icons/linkedIn.astro";
-import GitHub from "@/icons/github.astro";
-import WorldMap from "@/icons/worldmap.astro";
+import LinkedIn from "@/icons/linkedin.astro";
+import GitHub from "@/icons/Programming/github.astro";
 import type { SocialIcon } from "@/types";
 
 const { name, label, image, location, profiles, phone, email } = basics;
@@ -30,7 +29,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 			<h1>{name}</h1>
 			<h2>{label}</h2>
 			<div class="flex items-center gap-2 pt-2 text-sm text-skin-muted">
-				<WorldMap />
 				{city}, {region}
 			</div>
 			<footer class="print">
