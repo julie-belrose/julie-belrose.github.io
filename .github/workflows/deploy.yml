@@ -21,13 +21,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Node.js environment
+      # Step 2: Install pnpm
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      # Step 3: Set up Node.js environment
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      # Step 3: Install project dependencies
+      # Step 4: Install project dependencies
       - name: Install dependencies
         run: pnpm install
 
@@ -39,11 +43,11 @@ jobs:
           echo "Listing all project files:"
           find . -type f
 
-      # Step 4: Run Astro check to validate files and imports
+      # Step 5: Run Astro check to validate files and imports
       - name: Run Astro check
         run: pnpmastro check
 
-      # Step 5: Build the project
+      # Step 6: Build the project
       - name: Build the project
         run: pnpm build
 
