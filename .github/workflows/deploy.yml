@@ -45,7 +45,7 @@ jobs:
 
       # Step 5: Run Astro check to validate files and imports
       - name: Run Astro check
-        run: pnpmastro check
+        run: pnpm astro check
 
       # Step 6: Build the project
       - name: Build the project
