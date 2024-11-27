@@ -4,8 +4,7 @@ on:
   push:
     # Trigger the workflow on push to the 'main' branch
     branches:
-      - main
-      - development
+    - '*'
   workflow_dispatch:     # Allows the workflow to be manually triggered from the Actions tab
 
 permissions:
@@ -17,7 +16,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
+      - name: Checkout code
         uses: actions/checkout@v4
+
       - name: Install, build, and upload your site
         uses: withastro/action@v3
+        with:
+          package-manager: pnpm@latest
