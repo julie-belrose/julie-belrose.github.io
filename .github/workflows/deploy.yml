@@ -17,40 +17,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout the repository
-      - name: Checkout code
+      - name: Checkout your repository using git
         uses: actions/checkout@v4
-
-      # Step 2: Set up Node.js environment
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18  # Use Node.js version 18
-
-      # Step 3: Install pnpm package manager
-      - name: Install pnpm
-        run: npm install -g pnpm
-
-      # Step 4: Install dependencies using pnpm
-      - name: Install dependencies
-        run: pnpm install
-
-      # Step 5: Build the Astro project
-      - name: Build the project
-        run: pnpm run build
-
-  deploy:
-    needs: build        # This job depends on the success of the 'build' job
-    runs-on: ubuntu-latest
-    steps:
-      # Step 6: Checkout the repository again (required for the deploy step)
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      # Step 7: Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        if: success()  # Only run this step if the build is successful
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub's secret token for authentication
-          publish_dir: ./dist  # The directory containing the generated files after the build
+      - name: Install, build, and upload your site
+        uses: withastro/action@v3
