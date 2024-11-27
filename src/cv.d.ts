@@ -62,7 +62,8 @@ interface Volunteer {
 }
 
 interface Skills {
-  name: string;
+  icon: string;
+  name?: string;
   level: string;
   keywords: Array<string>;
 }
@@ -123,6 +124,11 @@ type Language =
   | "Bengali"
   | string;
 
+type Technos = {
+  icon: string;
+  name? :string;
+}
+
 interface Projects {
   name: string;
   isActive: boolean;
@@ -130,6 +136,7 @@ interface Projects {
   highlights: Highlight;
   url: string;
   github?: string;
+  technos: Technos[];
 }
 
 interface Interests {

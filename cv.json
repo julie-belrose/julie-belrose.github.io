@@ -186,7 +186,8 @@
   ],
   "skills": [
     {
-      "name": "NodeJS",
+      "icon": "NodeJS",
+      "name": "Node.js",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -196,7 +197,8 @@
       ]
     },
     {
-      "name": "ExpressJS",
+      "icon": "ExpressJS",
+      "name": "Express.js",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -206,7 +208,7 @@
       ]
     },
     {
-      "name": "MongoDB",
+      "icon": "MongoDB",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -217,7 +219,7 @@
       ]
     },
     {
-      "name": "Mongoose",
+      "icon": "Mongoose",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -229,7 +231,7 @@
       ]
     },
     {
-      "name": "PostgreSQL",
+      "icon": "PostgreSQL",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -238,7 +240,8 @@
       ]
     },
     {
-      "name": "Java",
+      "icon" : "Java",
+      "name": "Java SE 21",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -247,7 +250,8 @@
       ]
     },
     {
-      "name": "SpringBoot",
+      "icon" : "SpringBoot",
+      "name": "Spring Boot 3",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -256,7 +260,8 @@
       ]
     },
     {
-      "name": "Maven",
+      "icon" : "Maven",
+      "name": "Apache Maven",
       "level": "junior",
       "keywords": [
         "Web Development",
@@ -266,7 +271,7 @@
       ]
     },
     {
-      "name": "Gradle",
+      "icon": "Gradle",
       "level": "junior",
       "keywords": [
         "Web Development",
@@ -276,7 +281,7 @@
       ]
     },
     {
-      "name": "Jest",
+      "icon": "Jest",
       "level": "junior",
       "keywords": [
         "Web Development",
@@ -288,7 +293,8 @@
       ]
     },
     {
-      "name": "JUnit",
+      "icon" : "JUnit",
+      "name": "JUnit 5",
       "level": "junior",
       "keywords": [
         "Web Development",
@@ -300,7 +306,7 @@
       ]
     },
     {
-      "name": "Tests",
+      "icon": "Tests",
       "level": "junior",
       "keywords": [
         "Software craftsmanship",
@@ -309,7 +315,7 @@
       ]
     },
     {
-      "name": "Angular",
+      "icon": "Angular",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -317,7 +323,7 @@
       ]
     },
     {
-      "name": "SASS",
+      "icon": "SASS",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -326,7 +332,7 @@
       ]
     },
     {
-      "name": "JavaScript",
+      "icon": "JavaScript",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -336,7 +342,7 @@
       ]
     },
     {
-      "name": "TypeScript",
+      "icon": "TypeScript",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -346,7 +352,7 @@
       ]
     },
     {
-      "name": "SQL",
+      "icon": "SQL",
       "level": "Intermediate",
       "keywords": [
         "Databases",
@@ -356,7 +362,7 @@
       ]
     },
     {
-      "name": "Git",
+      "icon": "Git",
       "level": "Intermediate",
       "keywords": [
         "Version Control",
@@ -365,7 +371,7 @@
       ]
     },
     {
-      "name": "GitHub",
+      "icon": "GitHub",
       "level": "Intermediate",
       "keywords": [
         "Version Control",
@@ -375,21 +381,22 @@
       ]
     },
     {
-      "name": "macOS",
+      "icon": "macOS",
       "level": "Expert",
       "keywords": [
         "System exploitation"
       ]
     },
     {
-      "name": "Linux",
+      "icon": "Linux",
+      "name": "Linux (Ubuntu)",
       "level": "Expert",
       "keywords": [
         "System exploitation"
       ]
     },
     {
-      "name": "Windows",
+      "icon": "Windows",
       "level": "Expert",
       "keywords": [
         "System exploitation"
@@ -456,12 +463,25 @@
       "url": "https://www.youtube.com/live/LvqX92TIq8s?si=UXyIQCmjTwz-Df7u&t=1339",
       "github": "https://github.com/julie-belrose/Apotheose_O-Clock_Coaching",
       "technos": [
-        "React",
-        "NodeJS",
-        "SQL",
-        "PostgreSQL",
-        "Sqitch",
-        "Heroku"
+        {
+          "icon" : "React"
+        },
+        {
+          "icon" : "NodeJS",
+          "name": "Node.js"
+        },
+        {
+          "icon" : "SQL"
+        },
+        {
+          "icon" : "PostgreSQL"
+        },
+        {
+          "icon" : "Sqitch"
+        },
+        {
+          "icon" : "Heroku"
+        }
       ]
     },
     {
@@ -471,9 +491,20 @@
       "url": "",
       "github": "https://github.com/julie-belrose/portfolio",
       "technos": [
-        "Astro",
-        "Tailwind",
-        "TypeScript"
+        {
+          "icon" : "AstroIcon",
+          "name": "Astro"
+        },
+        {
+          "icon" : "Tailwind"
+        },
+        {
+          "icon" : "TypeScript"
+        },
+        {
+          "icon" : "GitHubAction",
+          "name": "GitHub Actions"
+        }
       ]
     },
     {
@@ -485,11 +516,24 @@
       ],
       "github": "https://github.com/julie-belrose/tennis",
       "technos": [
-        "Java",
-        "Spring Boot",
-        "Spring",
-        "Docker",
-        "JUnit"
+        {
+          "icon" : "Java",
+          "name": "Java SE 21"
+        },
+        {
+          "icon" : "SpringBoot",
+          "name": "Spring Boot 3"
+        },
+        {
+          "icon" : "Spring"
+        },
+        {
+          "icon" : "Docker"
+        },
+        {
+          "icon" : "JUnit",
+          "name": "JUnit"
+        }
       ]
     },
     {
@@ -498,10 +542,19 @@
       "description": "Une workshop provenant d'une plateforme tech Gitnation",
       "github": "https://github.com/julie-belrose/Workshop_Ethereum-fullstack",
       "technos": [
-        "React",
-        "Vite",
-        "Etherjs",
-        "Hardhat"
+        {
+          "icon" : "React"
+        },
+        {
+          "icon" : "Vite"
+        },
+        {
+          "icon" : "Etherjs",
+          "name": "Ether.js"
+        },
+        {
+          "icon" : "Hardhat"
+        }
       ]
     }
   ]
