@@ -4,11 +4,14 @@ on:
   # Trigger the workflow every time you push to the `main` branch
   # Using a different branch name? Replace `main` with your branch’s name
   push:
-    branches:
-      -  main
-      - development
+#    branches:
+#      -  main
+#      - development
     tags:
-      - '*'
+              - '1.*.*'
+              - '2.*.*'
+              - '1.*.*-RC*'
+              - '2.*.*-RC*'
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
