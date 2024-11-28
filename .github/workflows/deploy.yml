@@ -10,6 +10,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
+env:
+      ACCESS_KEY_WEB3FORMS: $ACCESS_KEY_WEBFORM3
+
 # Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read

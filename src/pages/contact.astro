@@ -4,6 +4,9 @@ import Container from "../components/container.astro";
 import Sectionhead from "../components/sectionhead.astro";
 import Layout from "../layouts/Layout.astro";
 import Navbar from "../components/navbar/navbar.astro";
+import Mail from "../components/ui/icons/profil/mail.astro";
+import Phone from "../components/ui/icons/profil/phone.astro";
+import Localisation from "../components/ui/icons/localisation.astro";
 ---
 
 <Layout title="Contact">
@@ -22,12 +25,13 @@ import Navbar from "../components/navbar/navbar.astro";
         <div class="mt-5">
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
             <!--class="text-gray-400 w-4 h-4" name="uil:map-marker"-->
+            <Localisation/>
             <span>Lyon (69) - France </span>
           </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
-          <!--class="text-gray-400 w-4 h-4" name="uil:envelope"-->
+          <Mail/>
           <a href="mailto:juliebelrose.pro@gmail.com" >juliebelrose.pro@gmail.com</a>
         </div><div class="flex items-center mt-2 space-x-2 font-bold text-gray-800">
-          <!--class="text-gray-400 w-4 h-4" name="uil:phone" -->
+          <Phone/>
           <a href="tel:+33 6 24 59 58 77">+33 6 24 59 58 77</a>
         </div>
         </div>

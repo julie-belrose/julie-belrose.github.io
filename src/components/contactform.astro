@@ -1,16 +1,17 @@
 ---
 import Button from "./ui/button.astro";
+import Section from "./Section.astro";
 ---
 
 <!-- To make this contact form work, create your free access key from https://web3forms.com/
      Then you will get all form submissions in your email inbox. -->
 <form
-  action="https://api.web3forms.com/submit"
+      action="https://api.web3forms.com/submit"
   method="POST"
   id="form"
   class="needs-validation"
   novalidate>
-  <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+  <input type="hidden" name="access_key" value={import.meta.env.ACCESS_KEY_WEBFORM3} />
   <!-- Create your free access key from https://web3forms.com/ -->
   <input type="checkbox" class="hidden" style="display:none" name="botcheck" />
   <div class="mb-5">
