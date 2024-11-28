@@ -3,7 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 
 import About from "@/components/sections/About.astro";
 import Education from "@/components/sections/Education.astro";
-import Experience from "@/components/sections/Experience.astro";
+import Experience from "../components/sections/Experience.astro";
 import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
@@ -15,10 +15,12 @@ import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
 import { basics } from "@cv";
 import Languages from "@/components/sections/Languages.astro";
+import Navbar from "../components/navbar/navbar.astro";
 const { name, label } = basics;
 ---
 
 <Layout title={`${name} Portfolio - ${label}`}>
+	<Navbar />
 	<main class="relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-6 md:p-16 xl:gap-24 print:max-w-none print:grid-cols-1 print:gap-6">
 		<div class="space-y-6 md:col-span-2 print:col-span-1 print:grid print:grid-cols-2 print:gap-5 print:space-y-0">
 			<Hero />

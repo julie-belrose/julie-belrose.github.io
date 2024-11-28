@@ -1,0 +1,40 @@
+---
+import Contactform from "../components/contactform.astro";
+import Container from "../components/container.astro";
+import Sectionhead from "../components/sectionhead.astro";
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/navbar/navbar.astro";
+---
+
+<Layout title="Contact">
+  <Navbar />
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Contact</Fragment>
+      <Fragment slot="desc">Prenons contact ensemble.</Fragment>
+    </Sectionhead>
+
+    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
+      <div>
+        <p class="text-lg leading-relaxed text-slate-500">
+          Besoin d’informations ou envie de collaborer ? N’hésitez pas à me contacter via ce formulaire. Je serai ravie de vous répondre au plus vite !
+        </p>
+        <div class="mt-5">
+          <div class="flex items-center mt-2 space-x-2 text-gray-600">
+            <!--class="text-gray-400 w-4 h-4" name="uil:map-marker"-->
+            <span>Lyon (69) - France </span>
+          </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
+          <!--class="text-gray-400 w-4 h-4" name="uil:envelope"-->
+          <a href="mailto:juliebelrose.pro@gmail.com" >juliebelrose.pro@gmail.com</a>
+        </div><div class="flex items-center mt-2 space-x-2 font-bold text-gray-800">
+          <!--class="text-gray-400 w-4 h-4" name="uil:phone" -->
+          <a href="tel:+33 6 24 59 58 77">+33 6 24 59 58 77</a>
+        </div>
+        </div>
+      </div>
+      <div>
+        <Contactform />
+      </div>
+    </div>
+  </Container>
+</Layout>
