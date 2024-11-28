@@ -2,6 +2,7 @@
 import Section from "../Section.astro";
 
 import {languages } from "@cv";
+import Lang from "../ui/icons/lang.astro";
 ---
 
 <Section className={Astro.props.className} title="Langues">
@@ -13,13 +14,10 @@ import {languages } from "@cv";
           {languages.map(({ language, fluency,url }) => {
             return (
               <div class="flex items-baseline">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2 hidden h-5 w-5 self-start md:inline-block print:hidden">
-                  <path fill="currentColor" d="M17 11v3l-3-3H8a2 2 0 0 1-2-2V2c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2zm-3 2v2a2 2 0 0 1-2 2H6l-3 3v-3H2a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h2v3a4 4 0 0 0 4 4z" />
-                </svg>
                 <div class="relative w-full items-baseline justify-between gap-2">
                   <h3 class="mr-6 items-baseline gap-x-2 gap-y-0.5 font-medium">
                     <a class="hover:text-skin-hue group flex items-center gap-[6px] text-skin-base decoration-dotted underline-offset-[5px] hover:underline" href={url} target="_blank">
-                      {language} - {fluency}
+                    <Lang/>  {language} - {fluency}
                     </a>
                   </h3>
                 </div>
