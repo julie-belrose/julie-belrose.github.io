@@ -185,6 +185,8 @@
     }
   ],
   "skills": [
+  ],
+  "backend": [
     {
       "icon": "NodeJS",
       "name": "Node.js",
@@ -207,6 +209,28 @@
         "Server"
       ]
     },
+    {
+      "icon" : "Java",
+      "name": "Java SE 21",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server"
+      ]
+    },
+    {
+      "icon" : "SpringBoot",
+      "name": "Spring Boot 3",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server"
+      ]
+    }
+  ],
+  "database": [
     {
       "icon": "MongoDB",
       "level": "Intermediate",
@@ -231,6 +255,16 @@
       ]
     },
     {
+      "icon": "SQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
       "icon": "PostgreSQL",
       "level": "Intermediate",
       "keywords": [
@@ -238,27 +272,9 @@
         "Backend",
         "Server"
       ]
-    },
-    {
-      "icon" : "Java",
-      "name": "Java SE 21",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server"
-      ]
-    },
-    {
-      "icon" : "SpringBoot",
-      "name": "Spring Boot 3",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server"
-      ]
-    },
+    }
+  ],
+  "ci": [
     {
       "icon" : "Maven",
       "name": "Apache Maven",
@@ -279,7 +295,21 @@
         "Server",
         "Build"
       ]
-    },
+    }
+  ],
+  "cd": [
+    {
+      "icon": "GitHub",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "Git"
+      ]
+    }
+  ],
+  "test": [
     {
       "icon": "Jest",
       "level": "junior",
@@ -314,6 +344,18 @@
         "Test-driven-development"
       ]
     },
+    {
+      "icon": "Tests",
+      "name": "Software craftsmanship",
+      "level": "junior",
+      "keywords": [
+        "Software craftsmanship",
+        "TDD",
+        "Test-driven-development"
+      ]
+    }
+  ],
+  "frontend": [
     {
       "icon": "Angular",
       "level": "Intermediate",
@@ -350,17 +392,9 @@
         "Backend",
         "JavaScript Superset"
       ]
-    },
-    {
-      "icon": "SQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
-    },
+    }
+  ],
+  "utils": [
     {
       "icon": "Git",
       "level": "Intermediate",
@@ -369,17 +403,9 @@
         "Collaboration",
         "Source Code"
       ]
-    },
-    {
-      "icon": "GitHub",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
-      ]
-    },
+    }
+  ],
+  "system":[
     {
       "icon": "macOS",
       "level": "Expert",
@@ -488,7 +514,10 @@
       "name": "Portfolio Personnel",
       "isActive": true,
       "description": "Un site web de portfolio personnel pour présenter mes projets et mes compétences.",
-      "url": "",
+      "highlights": [
+        "Déploiement avec GitHub Pages via GitHub Actions"
+      ],
+      "url": "https://julie-belrose.github.io/",
       "github": "https://github.com/julie-belrose/portfolio",
       "technos": [
         {
