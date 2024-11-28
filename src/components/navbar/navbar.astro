@@ -1,6 +1,7 @@
 ---
 import Container from "../container.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import ThemeSwitch from "../ThemeSwitch.astro";
 
 const menuitems = [
   {
@@ -35,6 +36,7 @@ const menuitems = [
             ))
           }
         </ul>
+        <ThemeSwitch />
       </MenuItems>
     </Astronav>
   </header>
