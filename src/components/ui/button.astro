@@ -1,4 +1,4 @@
----
+ ---
 interface Props {
   size?: "md" | "lg";
   block?: boolean;
@@ -20,13 +20,15 @@ const sizes = {
   lg: "px-6 py-3",
 };
 
+// border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800
+
 const styles = {
   outline: "border-2 border-orange-500 hover:bg-orange-500 text-orange-500 hover:text-white",
   primary:
     "bg-orange-500 text-white hover:bg-orange-600 border-2 border-transparent",
 };
 
----
+ ---
 
 <button
   {...rest}
