@@ -483,12 +483,13 @@
   ],
   "projects": [
     {
-      "name": "Service de post-formation pour les étudiants O'clock",
+      "name": "Service post-formation O'clock",
       "isActive": true,
       "description": "Conception d'un site web relié à l'API d'O'clock pour faciliter le suivi des étudiants après leur formation",
       "highlights": [
         "Projet de développement de fin de formation",
-        "outil pour suivre les 30 étudiants par promotion, avec 4 promotions par mois",
+        "Service de post-formation pour les étudiants O'clock",
+        "Outil pour suivre les 30 étudiants par promotion, avec 4 promotions par mois",
         "Espaces distincts pour les étudiants et les administrateurs",
         "Suivi personnalisé des apprenants, avec gestion des 30 étudiants par promotion, et 4 promotions par mois",
         "Gestion de la session via l'utilisation de cookies",
@@ -520,39 +521,11 @@
       ]
     },
     {
-      "name": "Portfolio Personnel",
-      "isActive": true,
-      "description": "Un site web de portfolio personnel pour présenter mes projets et mes compétences.",
-      "highlights": [
-        "Création des pages astro",
-        "Création de composant astro",
-        "Ajout d'un formulaire avec Web3form",
-        "Déploiement avec GitHub Pages via GitHub Actions"
-      ],
-      "github": "https://github.com/julie-belrose/portfolio",
-      "technos": [
-        {
-          "icon" : "AstroIcon",
-          "name": "Astro"
-        },
-        {
-          "icon" : "Tailwind"
-        },
-        {
-          "icon" : "TypeScript"
-        },
-        {
-          "icon" : "GitHubAction",
-          "name": "GitHub Actions"
-        }
-      ]
-    },
-    {
       "name": "Tennis App",
       "isActive": true,
       "description": "Une application back-end pour créer un classement de joueurs de tennis",
       "highlights": [
-       " Projet inspiré de la formation sur Dyma.fr",
+        " Projet inspiré de la formation sur Dyma.fr",
         "Développée avec Java SE 21 et Spring Boot 3",
         "Architecture MVC pour une séparation claire des responsabilités",
         "Mise en place de tests unitaires et d'intégration avec JUnit5",
@@ -608,6 +581,34 @@
         },
         {
           "icon" : "Hardhat"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio Personnel",
+      "isActive": true,
+      "description": "Un site web de portfolio personnel pour présenter mes projets et mes compétences.",
+      "highlights": [
+        "Création des pages astro",
+        "Création de composant astro",
+        "Ajout d'un formulaire avec Web3form",
+        "Déploiement avec GitHub Pages via GitHub Actions"
+      ],
+      "github": "https://github.com/julie-belrose/portfolio",
+      "technos": [
+        {
+          "icon" : "AstroIcon",
+          "name": "Astro"
+        },
+        {
+          "icon" : "Tailwind"
+        },
+        {
+          "icon" : "TypeScript"
+        },
+        {
+          "icon" : "GitHubAction",
+          "name": "GitHub Actions"
         }
       ]
     }
