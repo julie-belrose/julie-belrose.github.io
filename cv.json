@@ -6,7 +6,8 @@
     "email": "juliebelrose.pro@gmail.com",
     "phone": "+33 6 24 59 58 77",
     "url": "https://johndoe.dev",
-    "summary": "Développeuse spécialisée en back-end, en transition après une solide expérience en développement full stack. Reconnue pour ma capacité à résoudre des problèmes complexes, améliorer la robustesse des applications, et réduire considérablement les incidents grâce à des refactorings structurants et des optimisations majeures.",
+    "summary": "Développeuse back-end avec une expérience en full stack, j’ai contribué à améliorer la stabilité et la qualité des applications grâce à des refactorisations et des optimisations ciblées. ",
+    "summary_second" : "Actuellement, je consolide mes compétences en Node.js, MongoDB et Java/Spring Boot 3, tout en intégrant des pratiques comme le TDD, dans une démarche axée sur la qualité et l’apprentissage continu.",
     "theme": "default",
     "location": {
       "address": "",
@@ -15,6 +16,7 @@
       "countryCode": "FR",
       "region": "Auvergne-Rhône-Alpes"
     },
+    "availability" : "Mobile et disponible immédiatement",
     "profiles": [
       {
         "network": "LinkedIn",

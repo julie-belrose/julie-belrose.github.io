@@ -2,11 +2,14 @@
 import Section from "../Section.astro";
 
 import { basics } from "@cv";
-const { summary } = basics;
+const { summary, summary_second } = basics;
 ---
 
 <Section title="Mon profil">
 	<p>
 		{summary}
+	</p>
+	<p>
+		{summary_second}
 	</p>
 </Section>

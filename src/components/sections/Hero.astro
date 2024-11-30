@@ -8,7 +8,7 @@ import Phone from "../ui/icons/profil/phone.astro";
 import GitHub from "../ui/icons/Programming/github.astro";
 import type { SocialIcon } from "@/types";
 
-const { name, label, image, location, profiles, phone, email } = basics;
+const { name, label, image, location, profiles, phone, email, availability } = basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -31,6 +31,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 			<div class="flex items-center gap-2 pt-2 text-sm text-skin-muted">
 				{city}, {region}
 			</div>
+			<div class="flex items-center gap-2 pt-2 text-sm text-skin">
+				{availability}
+			</div >
 			<footer class="print">
 				{printInfo}
 			</footer>
@@ -46,13 +49,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 									</div>
 								</div>
 							</div>
-							<button @click="copyToClipboard();" class="group flex h-8 w-9 cursor-pointer items-center justify-center rounded-md text-skin-muted hover:bg-skin-button-accent hover:text-skin-inverted [&>span]:hover:text-skin-inverted">
-								<svg x-show="copyNotification" class="h-4 w-4 stroke-current text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" x-cloak>
-									<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-								</svg>
-								<span x-show="!copyNotification">
-									<Mail />
-								</span>
+							<button @click="copyToClipboard();" class="group flex h-8 w-9 cursor-pointer items-center justify-center rounded-md text-skin-muted hover:bg-skin-muted [&>span]:hover:text-skin-inverted">
+								<a href={`mailto:${email}`} target="_blank" x-show="!copyNotification" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+                  <span><Mail /></span>
+								</a>
 							</button>
 						</div>
 					)
