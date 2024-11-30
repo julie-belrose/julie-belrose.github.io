@@ -435,7 +435,8 @@
     {
       "language": "English",
       "fluency": "B1",
-      "url": "https://cert.efset.org/CeWJzX"
+      "url": "https://cert.efset.org/CeWJzX",
+      "icon" : "Lang"
     }
   ],
   "interests": [
@@ -482,11 +483,17 @@
   ],
   "projects": [
     {
-      "name": "Coaching",
+      "name": "Service de post-formation pour les étudiants O'clock",
       "isActive": true,
-      "description": "Conception d'un site web pour suivre efficacement les 30 étudiants par promotion, avec 4 promotions par mois, en post-formation d'O'clock, offrant un outil centralisé pour un suivi personnalisé des apprenants",
+      "description": "Conception d'un site web relié à l'API d'O'clock pour faciliter le suivi des étudiants après leur formation",
       "highlights": [
-        "Projet de développement de fin de formation"
+        "Projet de développement de fin de formation",
+        "outil pour suivre les 30 étudiants par promotion, avec 4 promotions par mois",
+        "Espaces distincts pour les étudiants et les administrateurs",
+        "Suivi personnalisé des apprenants, avec gestion des 30 étudiants par promotion, et 4 promotions par mois",
+        "Gestion de la session via l'utilisation de cookies",
+        "Gestion de l'authentification via OAuth 2.0 pour garantir la sécurité des accès",
+        "Déploiement de l'application sur la plateforme Heroku"
       ],
       "url": "https://www.youtube.com/live/LvqX92TIq8s?si=UXyIQCmjTwz-Df7u&t=1339",
       "github": "https://github.com/julie-belrose/Apotheose_O-Clock_Coaching",
@@ -517,9 +524,11 @@
       "isActive": true,
       "description": "Un site web de portfolio personnel pour présenter mes projets et mes compétences.",
       "highlights": [
+        "Création des pages astro",
+        "Création de composant astro",
+        "Ajout d'un formulaire avec Web3form",
         "Déploiement avec GitHub Pages via GitHub Actions"
       ],
-      "url": "https://julie-belrose.github.io/",
       "github": "https://github.com/julie-belrose/portfolio",
       "technos": [
         {
@@ -541,9 +550,14 @@
     {
       "name": "Tennis App",
       "isActive": true,
-      "description": "Une application CRUD back-end represented le classement des joueurs de tennis",
+      "description": "Une application back-end pour créer un classement de joueurs de tennis",
       "highlights": [
-        "Construit avec Java SE 21 aet Spring Boot 3"
+       " Projet inspiré de la formation sur Dyma.fr",
+        "Développée avec Java SE 21 et Spring Boot 3",
+        "Architecture MVC pour une séparation claire des responsabilités",
+        "Mise en place de tests unitaires et d'intégration avec JUnit5",
+        "Architecture CRUD pour la gestion des données des joueurs",
+        "Conteneurisation avec Docker pour faciliter le déploiement"
       ],
       "github": "https://github.com/julie-belrose/tennis",
       "technos": [
@@ -568,9 +582,18 @@
       ]
     },
     {
-      "name": "App Ethereum",
+      "name": "Initiation à une dApps",
       "isActive": true,
-      "description": "Une workshop provenant d'une plateforme tech Gitnation",
+      "description": "Un workshop provenant la conférence React Advanced 2021",
+      "highlights": [
+        "Création d'une application décentralisée (dApp)",
+        "Apprentissage de la création d'un portefeuille Metamask",
+        "Déploiement et gestion d'un smart contract (application Web3)",
+        "Utilisation de React pour l'interface utilisateur",
+        "Configuration de Vite pour le développement rapide",
+        "Intégration d'Ether.js pour interagir avec la blockchain",
+        "Utilisation de Hardhat pour le développement et le test des smart contracts"
+      ],
       "github": "https://github.com/julie-belrose/Workshop_Ethereum-fullstack",
       "technos": [
         {

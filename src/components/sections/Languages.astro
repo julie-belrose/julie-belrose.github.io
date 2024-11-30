@@ -2,7 +2,12 @@
 import Section from "../Section.astro";
 
 import {languages } from "@cv";
-import Lang from "../ui/icons/lang.astro";
+import  Lang from "../ui/icons/lang.astro";
+
+
+const LANG_ICONS: Record<string, any> = {
+ Lang,
+};
 ---
 
 <Section className={Astro.props.className} title="Langues">
@@ -11,17 +16,20 @@ import Lang from "../ui/icons/lang.astro";
     languages.length > 0 && (
       <>
         <ul class="space-y-4 py-3 print:space-y-0">
-          {languages.map(({ language, fluency,url }) => {
+          {languages.map(({ language, fluency,url, icon }) => {
+
+            const iconName = icon;
+            const Icon = LANG_ICONS[iconName];
             return (
-              <div class="flex items-baseline">
-                <div class="relative w-full items-baseline justify-between gap-2">
+                <div class=" flex relative w-full items-baseline justify-between gap-2">
                   <h3 class="mr-6 items-baseline gap-x-2 gap-y-0.5 font-medium">
-                    <a class="hover:text-skin-hue group flex items-center gap-[6px] text-skin-base decoration-dotted underline-offset-[5px] hover:underline" href={url} target="_blank">
-                    <Lang/>  {language} - {fluency}
-                    </a>
+                    <li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-sm text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
+                      <a class="hover:text-skin-hue group flex items-center gap-[6px] text-skin-base decoration-dotted underline-offset-[5px] hover:underline" href={url} target="_blank">
+                      {Icon && <Icon />} <span>{language} - {fluency}</span>
+                      </a>
+                    </li>
                   </h3>
                 </div>
-              </div>
             );
           })}
         </ul>
