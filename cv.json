@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Julie Belrose",
-    "label": "Développeuse Back end",
+    "label": "Développeuse full stack",
     "image": "/me_avatar2.jpg",
     "email": "juliebelrose.pro@gmail.com",
     "phone": "+33 6 24 59 58 77",
-    "url": "https://johndoe.dev",
+    "url": "https://julie-belrose.github.io/",
     "summary": "Développeuse back-end avec une expérience en full stack, j’ai contribué à améliorer la stabilité et la qualité des applications grâce à des refactorisations et des optimisations ciblées. ",
     "summary_second" : "Actuellement, je consolide mes compétences en Node.js, MongoDB et Java/Spring Boot 3, tout en intégrant des pratiques comme le TDD, dans une démarche axée sur la qualité et l’apprentissage continu.",
     "theme": "default",
