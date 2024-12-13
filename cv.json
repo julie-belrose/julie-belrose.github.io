@@ -5,9 +5,9 @@
     "image": "/me_avatar2.jpg",
     "email": "juliebelrose.pro@gmail.com",
     "phone": "+33 6 24 59 58 77",
-    "url": "https://johndoe.dev",
-    "summary": "Développeur Full stack avec 2 ans d'expérience professionnelle, je suis passionné par le développement web et les technologies émergentes.",
-    "summary_second" : "Avec une solide expérience dans la conception d'applications et de sites web à partir de zéro, je suis maintenant à la recherche d'une nouvelle opportunité professionnelle. Je suis également titulaire d'un diplôme en beaux-arts et en design graphique.",
+    "url": "https://julie-belrose.github.io/",
+    "summary": "Développeuse back-end avec une expérience en full stack, j’ai contribué à améliorer la stabilité et la qualité des applications grâce à des refactorisations et des optimisations ciblées. ",
+    "summary_second" : "Actuellement, je consolide mes compétences en Node.js, MongoDB et Java/Spring Boot 3, tout en intégrant des pratiques comme le TDD, dans une démarche axée sur la qualité et l’apprentissage continu.",
     "theme": "default",
     "location": {
       "address": "",
