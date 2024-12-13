@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "type": "module",
-  "version": "2.3.8",
+  "version": "2.3.9",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
