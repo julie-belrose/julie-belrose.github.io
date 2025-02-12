@@ -108,30 +108,33 @@
       "score": "",
       "courses": [
       ]
+    },
+    {
+      "institution": "Diplôme national d'art conférant grade de Licence",
+      "url": "https://esad-talm.fr/fr/les-etudes/l-option-art/art",
+      "area": "École supérieure d'art et de design TALM",
+      "studyType": "License",
+      "startDate": "2015-09-15",
+      "endDate": "2018-07-01",
+      "score": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Bac Professionnel Communication visuelle option plurimédia",
+      "url": "https://www.lyceegaramont.fr/bac-pro-ama/",
+      "area": "Lycée Claude-Garamont",
+      "studyType": "Bac",
+      "startDate": "2011-09-15",
+      "endDate": "2014-07-01",
+      "score": "",
+      "courses": [
+      ]
     }
   ],
   "certificates": [
     {
-      "name": "Cybersécurité Google Professional Certificate",
-      "date": "2024-12-01",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Google Career Certificates (Coursera) - En cours",
-      "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
-      "teaching": "Enseigné  en Anglais",
-      "courses": [
-        "Fondamentaux de la cybersécurité",
-        "Gestion des risques de sécurité",
-        "réseaux et sécurité des réseaux",
-        " Linux et SQL",
-        "Ressources numériques, menaces et vulnérabilités",
-         "détection et réponse",
-        "Automatiser les tâches de cybersécurité avec Python",
-        "Application : se préparer aux métiers de la cybersécurité"
-      ]
-    },
-    {
-      "name": "Titre professionnel développeur web et web mobile",
+      "name": "Titre professionnel développeur web et web mobile (Bac+2 / Brevet Fédéral)",
       "date": "2022-05-01",
       "issuer": "O'clock - École Tech de développement web en téléprésentiel"
     },
@@ -145,6 +148,56 @@
     }
   ],
   "courses": [
+    {
+      "name": "Fundamentals of Card Payment",
+      "date": "2025-01-29",
+      "startDate": "",
+      "endDate": "",
+      "issuer": "PayTech Academy",
+      "url": "https://courses.paytech-academy.com/certificates/y9djqehbqc",
+      "teaching": "Enseigné  en Anglais",
+      "courses": [
+        "The actors",
+        "Transaction stages",
+        "Complexity of chip-based transactions",
+       "Cryptography",
+       "Message switching and routing",
+        "Chip cards",
+       "Payment terminals",
+        "ATMs",
+        "Hosts and switches",
+        "HSMs",
+       "Payment messages",
+        "EMV & Contactless transactions",
+        "Online PIN",
+        "Certification & Compliance"
+      ]
+    },
+    {
+      "name": "Foundations of Prompt Engineering",
+      "date": "2025-01-06",
+      "startDate": "",
+      "endDate": "",
+      "issuer": "AWS Training Online",
+      "url": "https://courses.consensys.net/certificates/4wxksr5c35",
+      "teaching": "Enseigné  en Anglais"
+    },
+    {
+      "name": "Blockchain Essentials: An Introduction to Blockchain",
+      "date": "2025-01-06",
+      "startDate": "",
+      "endDate": "",
+      "issuer": "Consensys Academy",
+      "url": "https://courses.consensys.net/certificates/4wxksr5c35",
+      "teaching": "Enseigné  en Anglais",
+      "courses": [
+        "Google Cloud Platform",
+        "Cloud SQL",
+        "Pub/Sub",
+        "Spring Integration",
+        "Cloud Trace"
+      ]
+    },
     {
       "name": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
       "date": "2024-12-01",
