@@ -5,7 +5,7 @@ import Blockchain from "../ui/icons/Programming/blockchain/blockchain.astro";
 import Web3 from "../ui/icons/Programming/blockchain/web3.astro";
 import Ethereum from "../ui/icons/Programming/blockchain/ethereum.astro";
 import AI from "../ui/icons/Programming/ai.astro";
-import Cybersécurité from "../ui/icons/Programming/backend/security.astro";
+import Cybersecurity from "../ui/icons/Programming/backend/security.astro";
 
 import { interests } from "@cv";
 
@@ -15,11 +15,11 @@ const SKILLS_ICONS: Record<string, any> = {
   Blockchain,
   Web3,
   AI,
-  Cybersécurité
+  Cybersecurity
 };
 ---
 
-<Section className={Astro.props.className} title="Intérêts">
+<Section className={Astro.props.className} title="Interests">
   <ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
     {
       interests.map(({ name }) => {
