@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Julie Belrose",
-    "label": "Développeuse full stack",
+    "label": "Développeuse Back end",
     "image": "/me_avatar2.jpg",
     "email": "juliebelrose.pro@gmail.com",
     "phone": "+33 6 24 59 58 77",
@@ -16,7 +16,7 @@
       "countryCode": "FR",
       "region": "Auvergne-Rhône-Alpes"
     },
-    "availability" : "Mobile et disponible immédiatement",
+    "availability" : "Stage (14/10/25 – 25/02/26) | CDI dès mars 2026",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -99,7 +99,18 @@
   ],
   "education": [
     {
-      "institution": "Formation professionnelle  développeuse back-end  Node.js spécialisation data",
+      "institution": "Concepteur développeur d'applications (CDA)",
+      "url": "https://macarriere.m2iformation.fr/offres-alt/concepteur-rice-developpeur-se-d-applications/89/",
+      "area": "M2i",
+      "studyType": "DUT",
+      "startDate": "2025-03-16",
+      "endDate": "2026-03-16",
+      "score": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Formation professionnelle développeuse back-end  Node.js spécialisation data",
       "url": "https://oclock.io/formations/developpeur-web-web-mobile",
       "area": "O'clock - École Tech de développement web en téléprésentiel",
       "studyType": "DUT",
@@ -160,14 +171,14 @@
         "The actors",
         "Transaction stages",
         "Complexity of chip-based transactions",
-       "Cryptography",
-       "Message switching and routing",
+        "Cryptography",
+        "Message switching and routing",
         "Chip cards",
-       "Payment terminals",
+        "Payment terminals",
         "ATMs",
         "Hosts and switches",
         "HSMs",
-       "Payment messages",
+        "Payment messages",
         "EMV & Contactless transactions",
         "Online PIN",
         "Certification & Compliance"
@@ -487,8 +498,8 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "B1",
-      "url": "https://cert.efset.org/CeWJzX",
+      "fluency": "B2",
+      "url": "https://cert.efset.org/fr/KaxuTk",
       "icon" : "Lang"
     }
   ],
