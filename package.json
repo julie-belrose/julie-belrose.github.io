@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/tailwind": "^5.1.0",
-    "astro": "4.16.1",
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "5.9.3",
     "astro-font-picker": "^0.2.1",
     "astro-navbar": "^2.3.7",
     "dotenv": "^16.4.5",
