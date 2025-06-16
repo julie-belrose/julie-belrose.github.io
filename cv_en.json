@@ -1,13 +1,13 @@
 {
   "basics": {
     "name": "Julie Belrose",
-    "label": "Développeuse Back end",
+    "label": "Back-end Developer",
     "image": "/me_avatar2.jpg",
     "email": "juliebelrose.pro@gmail.com",
     "phone": "+33 6 24 59 58 77",
     "url": "https://johndoe.dev",
-    "summary": "Développeur Full stack avec 2 ans d'expérience professionnelle, je suis passionné par le développement web et les technologies émergentes.",
-    "summary_second" : "Avec une solide expérience dans la conception d'applications et de sites web à partir de zéro, je suis maintenant à la recherche d'une nouvelle opportunité professionnelle. Je suis également titulaire d'un diplôme en beaux-arts et en design graphique.",
+    "summary": "Full-stack developer with 2 years of professional experience, passionate about web development and emerging technologies.",
+    "summary_second": "With solid experience designing web applications and websites from scratch, I am currently seeking a new professional opportunity. I also hold a degree in Fine Arts and Graphic Design.",
     "theme": "default",
     "location": {
       "address": "",
@@ -16,7 +16,7 @@
       "countryCode": "FR",
       "region": "Auvergne-Rhône-Alpes"
     },
-    "availability" : "Stage (14/10/25 – 25/02/26) | CDI dès mars 2026",
+    "availability": "Internship (Oct 14, 2025 – Feb 25, 2026) | Open to full-time position from March 2026",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -38,31 +38,31 @@
   "work": [
     {
       "name": "UMI",
-      "position": "Développeuse full stack",
-      "location_type": "Hybride",
+      "position": "Full-Stack Developer",
+      "location_type": "Hybrid",
       "location": "Lyon, Auvergne-Rhône-Alpes",
       "url": "https://umi-innovation.com/fr/",
       "startDate": "2021-11-04",
       "endDate": "2023-11-04",
-      "summary": "Développer et maintenir des applications web en utilisant Express.js, Angular et MongoDB. Collaborer avec l'équipe pour mettre en œuvre de nouvelles fonctionnalités et corriger les bugs.",
+      "summary": "Developed and maintained web applications using Express.js, Angular, and MongoDB. Collaborated with the team to implement new features and fix bugs.",
       "highlights": [
         "Improved website performance by optimizing code"
       ],
       "responsibilities": [
-        "Collaboration avec des développeurs seniors pour concevoir et mettre en œuvre des applications web à l'aide de frameworks JavaScript modernes",
-        "Développement de modules clés pour cinq applications microservices, avec Express.js (Node.js) pour le back-end et Angular (v8-14) pour le front-end",
-        "Optimisation des performances dans les microservices Express.js (Node.js) : gestion des erreurs et amélioration des requêtes",
-       "Conception et maintenance des bases de données avec Mongoose et MongoDB : création de schémas robustes",
-        "Implémentation de fonctionnalités complètes : système de notifications, génération de PDF dynamiques via EJS et Excel",
-        "Collaboration en pair programming pour un système de notifications sur une plateforme sociale",
-        "Création de graphiques interactifs (via Chart.js) pour des dashboards utilisateurs, avec intégration en temps réel des données via l'API",
-        "Qualité et méthodologie : application des pratiques du clean code, revues de code, des tests manuels, et documentation technique des incidents",
-        "Formation en TDD avec Jest : pratique du Test-Driven Development pour le back-end et le front-end, avec l’utilisation de Jest",
-        "Référente du design system : collaboration avec une designer UI/UX et la Product Owner pour garantir la cohérence visuelle",
-        "Agilité : participation active aux cérémonies Scrum"
+        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks",
+        "Developed key modules for five microservice applications using Express.js (Node.js) for the back-end and Angular (v8–14) for the front-end",
+        "Optimized performance in Express.js microservices: improved error handling and query efficiency",
+        "Designed and maintained databases using Mongoose and MongoDB, creating robust schemas",
+        "Implemented full features: notification system, dynamic PDF generation via EJS, Excel export",
+        "Paired programming to build a notification system for a social platform",
+        "Created interactive charts (via Chart.js) for user dashboards with real-time API data integration",
+        "Applied clean code practices, conducted code reviews, manual testing, and documented technical incidents",
+        "Trained in TDD with Jest: practiced Test-Driven Development for both back-end and front-end using Jest",
+        "Design system lead: collaborated with UI/UX designer and Product Owner to ensure visual consistency",
+        "Agile : actively participated in Scrum ceremonies"
       ],
       "achievements": [
-        "Refactorisation stratégique d'une fonctionnalité front-end complexe : optimisé le code Angular pour réduire les incidents de 98 % et améliorer l'expérience utilisateur"
+        "Strategically refactored a complex front-end feature: optimized Angular code, reduced incidents by 98%, and improved user experience"
       ],
       "skills": [
         "MongoDB",
@@ -99,62 +99,56 @@
   ],
   "education": [
     {
-      "institution": "Concepteur développeur d'applications (CDA)",
+      "institution": "Application Developer Training Program (CDA)",
       "url": "https://macarriere.m2iformation.fr/offres-alt/concepteur-rice-developpeur-se-d-applications/89/",
-      "area": "M2i",
-      "studyType": "DUT",
+      "area": "M2i - Professional training school",
+      "studyType": "Advanced Technical Diploma (equivalent to Bachelor's level)",
       "startDate": "2025-03-16",
       "endDate": "2026-03-16",
       "score": "",
-      "courses": [
-      ]
+      "courses": []
     },
     {
-      "institution": "Formation professionnelle développeuse back-end  Node.js spécialisation data",
+      "institution": "Professional Back-End Developer Training – Node.js with Data Specialization",
       "url": "https://oclock.io/formations/developpeur-web-web-mobile",
-      "area": "O'clock - École Tech de développement web en téléprésentiel",
-      "studyType": "DUT",
+      "area": "O'clock – Remote Web Development School",
+      "studyType": "Technical Diploma (Bac+2)",
       "startDate": "2020-12-01",
       "endDate": "2021-05-01",
       "score": "",
-      "courses": [
-      ]
+      "courses": []
     },
     {
-      "institution": "Diplôme national d'art conférant grade de Licence",
+      "institution": "National Art Degree (equivalent to a Bachelor's Degree)",
       "url": "https://esad-talm.fr/fr/les-etudes/l-option-art/art",
-      "area": "École supérieure d'art et de design TALM",
-      "studyType": "License",
+      "area": "TALM – School of Fine Arts and Design",
+      "studyType": "Bachelor's Degree in Fine Arts",
       "startDate": "2015-09-15",
       "endDate": "2018-07-01",
       "score": "",
-      "courses": [
-      ]
+      "courses": []
     },
     {
-      "institution": "Bac Professionnel Communication visuelle option plurimédia",
+      "institution": "Baccalaureate in Visual Communication – Multimedia Option",
       "url": "https://www.lyceegaramont.fr/bac-pro-ama/",
-      "area": "Lycée Claude-Garamont",
-      "studyType": "Bac",
+      "area": "Lycée Claude-Garamont – School of Design",
+      "studyType": "High School Diploma (Bac Pro)",
       "startDate": "2011-09-15",
       "endDate": "2014-07-01",
       "score": "",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
   "certificates": [
     {
-      "name": "Titre professionnel développeur web et web mobile (Bac+2 / Brevet Fédéral)",
+      "name": "Professional Title - Web and Mobile Web Developer (Bac+2 / Federal Certificate)",
       "date": "2022-05-01",
-      "issuer": "O'clock - École Tech de développement web en téléprésentiel"
+      "issuer": "O'clock – Remote Web Development School"
     },
     {
-      "name": "Maîtrise de la qualité en projet web - niveau confirmé (720 points)",
+      "name": "Web Project Quality Certification – Confirmed Level (720 points)",
       "date": "2021-11-01",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Opquast",
+      "issuer": "Opquast - Professional training platform",
       "url": "https://oqs.li/85O93J"
     }
   ],
@@ -162,11 +156,9 @@
     {
       "name": "Fundamentals of Card Payment",
       "date": "2025-01-29",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "PayTech Academy",
+      "issuer": "PayTech Academy - Professional training platform",
       "url": "https://courses.paytech-academy.com/certificates/y9djqehbqc",
-      "teaching": "Enseigné  en Anglais",
+      "teaching": "Taught in English",
       "courses": [
         "The actors",
         "Transaction stages",
@@ -187,20 +179,16 @@
     {
       "name": "Foundations of Prompt Engineering",
       "date": "2025-01-06",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "AWS Training Online",
+      "issuer": "AWS Training Online - Professional training platform",
       "url": "https://courses.consensys.net/certificates/4wxksr5c35",
-      "teaching": "Enseigné  en Anglais"
+      "teaching": "Taught in English"
     },
     {
-      "name": "Blockchain Essentials: An Introduction to Blockchain",
+      "name": "Blockchain Essentials - An Introduction to Blockchain",
       "date": "2025-01-06",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Consensys Academy",
+      "issuer": "Consensys Academy - Professional training platform",
       "url": "https://courses.consensys.net/certificates/4wxksr5c35",
-      "teaching": "Enseigné  en Anglais",
+      "teaching": "Taught in English",
       "courses": [
         "Google Cloud Platform",
         "Cloud SQL",
@@ -212,11 +200,9 @@
     {
       "name": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
       "date": "2024-12-01",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Google Cloud Platform (Coursera) - En cours ",
+      "issuer": "Google Cloud Platform - Coursera",
       "url": "https://www.coursera.org/learn/google-cloud-java-spring",
-      "teaching": "Enseigné  en Anglais",
+      "teaching": "Taught in English",
       "courses": [
         "Google Cloud Platform",
         "Cloud SQL",
@@ -226,27 +212,21 @@
       ]
     },
     {
-      "name": "Formation de software craftsmanship",
+      "name": "Software Craftsmanship Training",
       "date": "2024-10-01",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Plateforme spécialisée en développement web",
+      "issuer": "Specialized web development platform",
       "url": "https://academy.captaindev.io/coding-dojo-zero-to-craft"
     },
     {
-      "name": "Spring Boot 3 : Simplife le développement d'applications Java",
+      "name": "Spring Boot 3 - Simplify Java Application Development",
       "date": "2024-08-01",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Dyma.fr",
+      "issuer": "Dyma.fr - Professional training platform",
       "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/64799f7159ebb4f1e99bfb8b"
     },
     {
-      "name": "Java SE 21 : Langage polyvalent pour applications multiplateformes",
+      "name": "Java SE 21 - Versatile Language for Cross-Platform Applications",
       "date": "2024-08-01",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Dyma.fr",
+      "issuer": "Dyma.fr - Professional training platform",
       "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/6410ba8d79bdeb036b8383b9"
     }
   ],
@@ -547,136 +527,91 @@
   ],
   "projects": [
     {
-      "name": "Service post-formation O'clock",
+      "name": "O'clock Post-Training Service",
       "isActive": true,
-      "description": "Conception d'un site web relié à l'API d'O'clock pour faciliter le suivi des étudiants après leur formation",
+      "description": "Design of a web platform connected to the O'clock API to support student follow-up after graduation.",
       "highlights": [
-        "Projet de développement de fin de formation",
-        "Service de post-formation pour les étudiants O'clock",
-        "Outil pour suivre les 30 étudiants par promotion, avec 4 promotions par mois",
-        "Espaces distincts pour les étudiants et les administrateurs",
-        "Suivi personnalisé des apprenants, avec gestion des 30 étudiants par promotion, et 4 promotions par mois",
-        "Gestion de la session via l'utilisation de cookies",
-        "Gestion de l'authentification via OAuth 2.0 pour garantir la sécurité des accès",
-        "Déploiement de l'application sur la plateforme Heroku"
+        "Final training project",
+        "Support service for O'clock graduates",
+        "Tool to monitor 30 students per cohort, with 4 cohorts per month",
+        "Separate areas for students and administrators",
+        "Personalized follow-up for learners with cohort management",
+        "Session handling using cookies",
+        "OAuth 2.0-based authentication for secure access",
+        "Deployment on Heroku platform"
       ],
       "url": "https://www.youtube.com/live/LvqX92TIq8s?si=UXyIQCmjTwz-Df7u&t=1339",
       "github": "https://github.com/julie-belrose/Apotheose_O-Clock_Coaching",
       "technos": [
-        {
-          "icon" : "React"
-        },
-        {
-          "icon" : "NodeJS",
-          "name": "Node.js"
-        },
-        {
-          "icon" : "SQL"
-        },
-        {
-          "icon" : "PostgreSQL"
-        },
-        {
-          "icon" : "Sqitch"
-        },
-        {
-          "icon" : "Heroku"
-        }
+        { "icon": "React" },
+        { "icon": "NodeJS", "name": "Node.js" },
+        { "icon": "SQL" },
+        { "icon": "PostgreSQL" },
+        { "icon": "Sqitch" },
+        { "icon": "Heroku" }
       ]
     },
     {
       "name": "Tennis App",
       "isActive": true,
-      "description": "Une application back-end pour créer un classement de joueurs de tennis",
+      "description": "A back-end application for managing a tennis player ranking system.",
       "highlights": [
-        " Projet inspiré de la formation sur Dyma.fr",
-        "Développée avec Java SE 21 et Spring Boot 3",
-        "Architecture MVC pour une séparation claire des responsabilités",
-        "Mise en place de tests unitaires et d'intégration avec JUnit5",
-        "Architecture CRUD pour la gestion des données des joueurs",
-        "Conteneurisation avec Docker pour faciliter le déploiement"
+        "Project inspired by Dyma.fr training",
+        "Developed with Java SE 21 and Spring Boot 3",
+        "MVC architecture for clear separation of concerns",
+        "Unit and integration tests with JUnit 5",
+        "CRUD architecture for player data management",
+        "Docker containerization for easy deployment"
       ],
       "github": "https://github.com/julie-belrose/tennis",
       "technos": [
-        {
-          "icon" : "Java",
-          "name": "Java SE 21"
-        },
-        {
-          "icon" : "SpringBoot",
-          "name": "Spring Boot 3"
-        },
-        {
-          "icon" : "Spring"
-        },
-        {
-          "icon" : "Docker"
-        },
-        {
-          "icon" : "JUnit",
-          "name": "JUnit"
-        }
+        { "icon": "Java", "name": "Java SE 21" },
+        { "icon": "SpringBoot", "name": "Spring Boot 3" },
+        { "icon": "Spring" },
+        { "icon": "Docker" },
+        { "icon": "JUnit", "name": "JUnit" }
       ]
     },
     {
-      "name": "Initiation à une dApps",
+      "name": "Introduction to dApps",
       "isActive": true,
-      "description": "Un workshop provenant la conférence React Advanced 2021",
+      "description": "A workshop from the React Advanced 2021 conference.",
       "highlights": [
-        "Création d'une application décentralisée (dApp)",
-        "Apprentissage de la création d'un portefeuille Metamask",
-        "Déploiement et gestion d'un smart contract (application Web3)",
-        "Utilisation de React pour l'interface utilisateur",
-        "Configuration de Vite pour le développement rapide",
-        "Intégration d'Ether.js pour interagir avec la blockchain",
-        "Utilisation de Hardhat pour le développement et le test des smart contracts"
+        "Creation of a decentralized application (dApp)",
+        "Learning to set up a Metamask wallet",
+        "Deployment and management of a smart contract (Web3 application)",
+        "React used for UI development",
+        "Vite configuration for rapid development",
+        "Integration of Ether.js to interact with the blockchain",
+        "Use of Hardhat for smart contract development and testing"
       ],
       "github": "https://github.com/julie-belrose/Workshop_Ethereum-fullstack",
       "technos": [
-        {
-          "icon" : "React"
-        },
-        {
-          "icon" : "Vite"
-        },
-        {
-          "icon" : "Etherjs",
-          "name": "Ether.js"
-        },
-        {
-          "icon" : "Hardhat"
-        }
+        { "icon": "React" },
+        { "icon": "Vite" },
+        { "icon": "Etherjs", "name": "Ether.js" },
+        { "icon": "Hardhat" }
       ]
     },
     {
-      "name": "Portfolio Personnel",
+      "name": "Personal Portfolio",
       "isActive": true,
-      "description": "Un site web de portfolio personnel pour présenter mes projets et mes compétences.",
+      "description": "A personal portfolio website to showcase my projects and skills.",
       "highlights": [
-        "Création des pages astro",
-        "Création de composant astro",
-        "Ajout d'un formulaire avec Web3form",
-        "Ajout d'une barre de navigation",
-        "Création des pages Astro",
-        "Déploiement avec GitHub Pages via GitHub Actions"
+        "Creation of Astro pages",
+        "Development of custom Astro components",
+        "Integration of a contact form using Web3form",
+        "Navigation bar implementation",
+        "Deployment via GitHub Pages with GitHub Actions"
       ],
       "github": "https://github.com/julie-belrose/portfolio",
       "technos": [
-        {
-          "icon" : "AstroIcon",
-          "name": "Astro"
-        },
-        {
-          "icon" : "Tailwind"
-        },
-        {
-          "icon" : "TypeScript"
-        },
-        {
-          "icon" : "GitHubAction",
-          "name": "GitHub Actions"
-        }
+        { "icon": "AstroIcon", "name": "Astro" },
+        { "icon": "Tailwind" },
+        { "icon": "TypeScript" },
+        { "icon": "GitHubAction", "name": "GitHub Actions" }
       ]
     }
   ]
+
 }

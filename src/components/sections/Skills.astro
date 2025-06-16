@@ -56,7 +56,7 @@ const SKILLS_ICONS: Record<string, any> = {
 };
 ---
 
-<Section className={Astro.props.className} title="Compétences">
+<Section className={Astro.props.className} title="Skills">
 	<h3>Back-end</h3>
 	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
 		{backend?.map(({ icon , name}) => {
@@ -70,7 +70,7 @@ const SKILLS_ICONS: Record<string, any> = {
 		})}
 	</ul>
 
-	<h3>Base de donnée</h3>
+	<h3>Database</h3>
 	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
 		{database?.map(({ icon}) => {
 			const Icon = SKILLS_ICONS[icon];
@@ -96,7 +96,7 @@ const SKILLS_ICONS: Record<string, any> = {
 		})}
 	</ul>
 
-	<h3>Continuous Deploiement - Devops - CD</h3>
+	<h3>Continuous Deployment - Devops - CD</h3>
 	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
 		{cd.map(({ icon}) => {
 			const Icon = SKILLS_ICONS[icon];
@@ -135,7 +135,7 @@ const SKILLS_ICONS: Record<string, any> = {
 		})}
 	</ul>
 
-	<h3>Outils</h3>
+	<h3>Utiils</h3>
 	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
 		{utils?.map(({ icon}) => {
 			const Icon = SKILLS_ICONS[icon];
@@ -148,7 +148,7 @@ const SKILLS_ICONS: Record<string, any> = {
 		})}
 	</ul>
 
-	<h3>Système d'exploitation</h3>
+	<h3>Operating system</h3>
 	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
 		{system?.map(({ icon , name}) => {
 			const Icon = SKILLS_ICONS[icon];
