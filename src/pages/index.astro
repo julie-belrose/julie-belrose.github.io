@@ -2,19 +2,13 @@
 import Layout from "@/layouts/Layout.astro";
 
 import About from "@/components/sections/About.astro";
-import Education from "@/components/sections/Education.astro";
-import Experience from "../components/sections/Experience.astro";
 import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
-import Skills from "@/components/sections/Skills.astro";
-import  Interest  from "@/components/sections/Interest.astro";
 import Tail from "@/components/sections/Tail.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
-import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
 
 import { basics } from "@cv";
-import Languages from "@/components/sections/Languages.astro";
 import Navbar from "../components/navbar/navbar.astro";
 const { name, label } = basics;
 ---
@@ -28,9 +22,6 @@ const { name, label } = basics;
 		</div>
 		<div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
 			<Projects className="print:hidden" />
-			<Skills className="print:hidden" />
-			<Interest className="print:hidden" />
-			<Languages className="print:hidden" />
 		</div>
 		<Tail />
 	</main>
