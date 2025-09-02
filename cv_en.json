@@ -746,7 +746,7 @@
         "Implemented real-time filtering of Pokémon names and types, case-insensitive",
         "Designed a simple but interactive UI with clear search, type filter, and empty state feedback"
       ],
-      "github": "https://github.com/julie-belrose/minipokedex",
+      "github": "https://github.com/julie-belrose/Mini_Pokedex",
       "technos": [
         {
           "icon": "React",
