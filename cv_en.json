@@ -6,8 +6,8 @@
     "email": "juliebelrose.pro@gmail.com",
     "phone": "+33 6 24 59 58 77",
     "url": "https://johndoe.dev",
-    "summary": "Full-stack developer with 2 years of professional experience, passionate about web development and emerging technologies.",
-    "summary_second": "With solid experience designing web applications and websites from scratch, I am currently seeking a new professional opportunity. I also hold a degree in Fine Arts and Graphic Design.",
+    "summary": "Full-stack developer with 2+ years of professional experience, currently training as an Application Developer (Bac+3/4 – M2I).",
+    "summary_second": "Passionate about web development and emerging technologies, with a background in Fine Arts and Graphic Design",
     "theme": "default",
     "location": {
       "address": "",
@@ -76,6 +76,7 @@
         "Sentry",
         "MailGun",
         "Angular",
+        "React",
         "Chartjs",
         "HTML",
         "CSS",
@@ -527,70 +528,146 @@
   ],
   "projects": [
     {
-      "name": "O'clock Post-Training Service",
+      "name": "Waste Reporting Application",
       "isActive": true,
-      "description": "Design of a web platform connected to the O'clock API to support student follow-up after graduation.",
+      "description": "A fullstack group project built in Agile Scrum, enabling citizens, agents, and administrators to report and manage urban waste issues efficiently.",
       "highlights": [
-        "Final training project",
-        "Support service for O'clock graduates",
-        "Tool to monitor 30 students per cohort, with 4 cohorts per month",
-        "Separate areas for students and administrators",
-        "Personalized follow-up for learners with cohort management",
-        "Session handling using cookies",
-        "OAuth 2.0-based authentication for secure access",
-        "Deployment on Heroku platform"
+        "Currently developed in a 3-person team using Agile Scrum practices (sprints, stand-ups, retrospectives)",
+        "Fullstack web app: Node.js + Express.js backend, HTML/CSS/JS frontend",
+        "Domain-Driven Design (DDD) structure with clear separation of concerns (controller, service, entity, dto, mapper, schema)",
+        "Dual database support: MongoDB and MySQL",
+        "Environment-based configuration with .env for dev/prod",
+        "Middleware for error handling, authentication, and 404 responses",
+        "Commitizen integration for standardized, semantic commit messages",
+        "Frontend structured with modular components, pages, and reusable styles"
       ],
-      "url": "https://www.youtube.com/live/LvqX92TIq8s?si=UXyIQCmjTwz-Df7u&t=1339",
-      "github": "https://github.com/julie-belrose/Apotheose_O-Clock_Coaching",
+      "github": "https://github.com/julie-belrose/Fil_Rouge/tree/development",
       "technos": [
-        { "icon": "React" },
-        { "icon": "NodeJS", "name": "Node.js" },
-        { "icon": "SQL" },
-        { "icon": "PostgreSQL" },
-        { "icon": "Sqitch" },
-        { "icon": "Heroku" }
+        {
+          "icon": "NodeJS",
+          "name": "Node.js"
+        },
+        {
+          "icon": "ExpressJS",
+          "name": "Express.js"
+        },
+        {
+          "icon": "MongoDB",
+          "name": "MongoDB"
+        },
+        {
+          "icon": "MySQL",
+          "name": "MySQL"
+        },
+        {
+          "icon": "HTML",
+          "name": "HTML5"
+        },
+        {
+          "icon": "CSS",
+          "name": "CSS3"
+        },
+        {
+          "icon": "JavaScript",
+          "name": "JavaScript"
+        },
+        {
+          "icon": "Agile",
+          "name": "Agile Scrum"
+        }
       ]
     },
     {
-      "name": "Tennis App",
+      "name": "Ticket Office",
       "isActive": true,
-      "description": "A back-end application for managing a tennis player ranking system.",
+      "description": "A simple Java application to manage events and ticket reservations through a console menu.",
       "highlights": [
-        "Project inspired by Dyma.fr training",
-        "Developed with Java SE 21 and Spring Boot 3",
-        "MVC architecture for clear separation of concerns",
-        "Unit and integration tests with JUnit 5",
-        "CRUD architecture for player data management",
-        "Docker containerization for easy deployment"
+        "Manage clients, events and tickets with basic Create/Read/Update/Delete actions",
+        "Reserve tickets with seat categories (Standard, Gold, VIP) and capacity check",
+        "User-friendly menu with clear prompts to guide the interaction",
+        "Error handling with custom messages when data is missing or an event is full",
+        "Clean structure separating data, services, and user interface",
+        "Easily extendable: can be connected later to a database or a graphical interface"
       ],
-      "github": "https://github.com/julie-belrose/tennis",
+      "github": "https://github.com/julie-belrose/ticket-office",
       "technos": [
-        { "icon": "Java", "name": "Java SE 21" },
-        { "icon": "SpringBoot", "name": "Spring Boot 3" },
-        { "icon": "Spring" },
-        { "icon": "Docker" },
-        { "icon": "JUnit", "name": "JUnit" }
+        {
+          "icon": "Java",
+          "name": "Java 21"
+        },
+        {
+          "icon": "Maven",
+          "name": "Maven"
+        }
       ]
     },
     {
-      "name": "Introduction to dApps",
+      "name": "Fashion Store Management API",
       "isActive": true,
-      "description": "A workshop from the React Advanced 2021 conference.",
+      "description": "A Java back-end API for managing a fashion store’s inventory, customers, and sales, designed with a Domain-Driven Design inspired architecture.",
       "highlights": [
-        "Creation of a decentralized application (dApp)",
-        "Learning to set up a Metamask wallet",
-        "Deployment and management of a smart contract (Web3 application)",
-        "React used for UI development",
-        "Vite configuration for rapid development",
-        "Integration of Ether.js to interact with the blockchain",
-        "Use of Hardhat for smart contract development and testing"
+        "Layered structure inspired by Domain-Driven Design principles",
+        "Dedicated packages for domain, dto, mapper, service, repository, and exception handling",
+        "Generic CRUD system (GenericCrud, GenericMapper, GenericCrudController) for reusable operations",
+        "DTO and Mapper layers to ensure clean separation between domain entities and API payloads",
+        "Robust exception handling with custom exceptions (e.g. FurnitureNotFoundException)",
+        "Full CRUD support for customers, products, carts, and sales",
+        "Enum-driven attributes for product categories and sales status",
+        "Extensible architecture that can evolve with new features or entities"
       ],
-      "github": "https://github.com/julie-belrose/Workshop_Ethereum-fullstack",
+      "github": "https://github.com/julie-belrose/API_Furniture_Management",
       "technos": [
-        { "icon": "React" },
-        { "icon": "Vite" },
-        { "icon": "Etherjs", "name": "Ether.js" },
-        { "icon": "Hardhat" }
+        {
+          "icon": "Java",
+          "name": "Java 21"
+        },
+        {
+          "icon": "SpringBoot",
+          "name": "Spring Boot 3"
+        },
+        {
+          "icon": "Hibernate",
+          "name": "Hibernate ORM"
+        },
+        {
+          "icon": "MySQL",
+          "name": "MySQL"
+        },
+        {
+          "icon": "Lombok",
+          "name": "Lombok"
+        },
+        {
+          "icon": "Maven",
+          "name": "Apache Maven"
+        }
+      ]
+    },
+    {
+      "name": "Mini Pokédex (React)",
+      "isActive": true,
+      "description": "A playful React project to search and filter Pokémon, with saved state between sessions.",
+      "highlights": [
+        "Built a search feature that remembers the last Pokémon you looked for, even after refreshing the page",
+        "Used React hooks (useState, useEffect) to manage state and sync it with localStorage",
+        "Created a custom hook to make the localStorage logic reusable and cleaner",
+        "Implemented real-time filtering of Pokémon names and types, case-insensitive",
+        "Designed a simple but interactive UI with clear search, type filter, and empty state feedback"
+      ],
+      "github": "https://github.com/julie-belrose/minipokedex",
+      "technos": [
+        {
+          "icon": "React",
+          "name": "React"
+        },
+        {
+          "icon": "TypeScript",
+          "name": "TypeScript"
+        },
+        {
+          "icon": "Vite",
+          "name": "Vite"
+        }
       ]
     },
     {
@@ -610,6 +687,44 @@
         { "icon": "Tailwind" },
         { "icon": "TypeScript" },
         { "icon": "GitHubAction", "name": "GitHub Actions" }
+      ]
+    },
+    {
+      "name": "O'clock Post-Training Service",
+      "isActive": true,
+      "description": "Design of a web platform connected to the O'clock API to support student follow-up after graduation.",
+      "highlights": [
+        "Final training project",
+        "Support service for O'clock graduates",
+        "Tool to monitor 30 students per cohort, with 4 cohorts per month",
+        "Separate areas for students and administrators",
+        "Personalized follow-up for learners with cohort management",
+        "Session handling using cookies",
+        "OAuth 2.0-based authentication for secure access",
+        "Deployment on Heroku platform"
+      ],
+      "url": "https://www.youtube.com/live/LvqX92TIq8s?si=UXyIQCmjTwz-Df7u&t=1339",
+      "github": "https://github.com/julie-belrose/Apotheose_O-Clock_Coaching",
+      "technos": [
+        {
+          "icon": "React"
+        },
+        {
+          "icon": "NodeJS",
+          "name": "Node.js"
+        },
+        {
+          "icon": "SQL"
+        },
+        {
+          "icon": "PostgreSQL"
+        },
+        {
+          "icon": "Sqitch"
+        },
+        {
+          "icon": "Heroku"
+        }
       ]
     }
   ]
