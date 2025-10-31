@@ -10,9 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
+    "@astrojs/check": "^0.9.5",
     "@astrojs/tailwind": "^6.0.2",
-    "astro": "5.9.3",
+    "astro": "5.15.3",
     "astro-font-picker": "^0.2.1",
     "astro-navbar": "^2.3.7",
     "dotenv": "^16.4.5",

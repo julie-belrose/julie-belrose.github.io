@@ -6,6 +6,7 @@ import X from "../ui/icons/profil/x.astro";
 import Mail from "../ui/icons/profil/mail.astro";
 import Phone from "../ui/icons/profil/phone.astro";
 import GitHub from "../ui/icons/Programming/github.astro";
+import GitLab from "../ui/icons/Programming/gitlab.astro";
 import type { SocialIcon } from "@/types";
 
 const { name, label, image, location, profiles, phone, email, availability } = basics;
@@ -15,6 +16,7 @@ const SOCIAL_ICONS: SocialIcon = {
 	GitHub,
 	LinkedIn,
 	X,
+  GitLab
 };
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
