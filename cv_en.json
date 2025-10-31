@@ -1,22 +1,22 @@
 {
   "basics": {
     "name": "Julie Belrose",
-    "label": "Back-end Developer",
+    "label": "Full-Stack Developer (Node.js / Angular – Back-End Oriented)",
     "image": "/me_avatar2.jpg",
     "email": "juliebelrose.pro@gmail.com",
     "phone": "+33 6 24 59 58 77",
-    "url": "https://johndoe.dev",
-    "summary": "Full-stack developer with 2+ years of professional experience, currently training as an Application Developer (Bac+3/4 – M2I).",
-    "summary_second": "Passionate about web development and emerging technologies, with a background in Fine Arts and Graphic Design",
+    "url": "https://julie-belrose.github.io/",
+    "summary": "Full-stack developer with 2 years of experience in a fast-growing SaaS startup and currently in advanced application development training (M2I).",
+    "summary_second": "Experienced in full-cycle development and passionate about emerging technologies, including AI and Cloud solutions.",
     "theme": "default",
     "location": {
       "address": "",
-      "postalCode": "69009",
-      "city": "Lyon",
+      "postalCode": "75012",
+      "city": "Paris 12e",
       "countryCode": "FR",
-      "region": "Auvergne-Rhône-Alpes"
+      "region": "Île-de-France"
     },
-    "availability": "Internship (Oct 14, 2025 – Feb 25, 2026) | Open to full-time position from March 2026",
+    "availability": "Open to full-time position in Paris",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -32,6 +32,11 @@
         "network": "GitHub",
         "username": "julie-belrose",
         "url": "https://github.com/julie-belrose"
+      },
+      {
+        "network": "GitLab",
+        "username": "julie-belrose",
+        "url": "https://gitlab.com/julie-belrose"
       }
     ]
   },
@@ -136,7 +141,7 @@
       "url": "https://umi-innovation.com/fr/",
       "startDate": "2021-11-04",
       "endDate": "2023-11-04",
-      "summary": "Developed and maintained web applications using Express.js, Angular, and MongoDB. Collaborated with the team to implement new features and fix bugs.",
+      "summary": "Developed SaaS applications for enterprise social networking, custom quizzes, and data automation using Angular, Node.js, and MongoDB within a growing startup.",
       "highlights": [
         "Improved website performance by optimizing code"
       ],
@@ -154,7 +159,11 @@
         "Agile : actively participated in Scrum ceremonies"
       ],
       "achievements": [
-        "Strategically refactored a complex front-end feature: optimized Angular code, reduced incidents by 98%, and improved user experience"
+        "Strategically refactored a complex front-end feature: optimized Angular code, reduced incidents by 98%, and improved user experience",
+        "Designed and implemented core business features (dynamic question types) for the main SaaS product",
+        "Created advanced reporting and analytics systems for market test data",
+        "Refactored critical Angular applications to eliminate production bugs and boost performance",
+        "Collaborated with UX/UI team to maintain visual coherence as Design System lead"
       ],
       "skills": [
         "MongoDB",
@@ -166,6 +175,7 @@
         "Drone",
         "Rancher",
         "Sentry",
+        "Sonar Cloud",
         "MailGun",
         "Angular",
         "React",
@@ -197,9 +207,21 @@
       "area": "M2i - Professional training school",
       "studyType": "Advanced Technical Diploma (equivalent to Bachelor's level)",
       "startDate": "2025-03-16",
-      "endDate": "2026-03-16",
+      "endDate": "2025-10-15",
       "score": "",
       "courses": []
+    },
+    {
+      "institution": "Personal Projects - Independent Developer",
+      "area": "Home",
+      "startDate": "2023-11-04",
+      "endDate": "2025-03-16",
+      "score": "",
+      "courses": [
+        "Java 21",
+        "Spring Boot 3",
+        "Google Cloud Platform"
+      ]
     },
     {
       "institution": "Professional Back-End Developer Training – Node.js with Data Specialization",
@@ -282,13 +304,7 @@
       "issuer": "Consensys Academy - Professional training platform",
       "url": "https://courses.consensys.net/certificates/4wxksr5c35",
       "teaching": "Taught in English",
-      "courses": [
-        "Google Cloud Platform",
-        "Cloud SQL",
-        "Pub/Sub",
-        "Spring Integration",
-        "Cloud Trace"
-      ]
+      "courses": []
     },
     {
       "name": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
@@ -570,6 +586,11 @@
   ],
   "languages": [
     {
+      "language": "French",
+      "fluency": "Native language",
+      "icon" : "Lang"
+    },
+    {
       "language": "English",
       "fluency": "B2",
       "url": "https://cert.efset.org/fr/KaxuTk",
@@ -746,7 +767,7 @@
         "Implemented real-time filtering of Pokémon names and types, case-insensitive",
         "Designed a simple but interactive UI with clear search, type filter, and empty state feedback"
       ],
-      "github": "https://github.com/julie-belrose/Mini_Pokedex",
+      "github": "https://github.com/julie-belrose/minipokedex",
       "technos": [
         {
           "icon": "React",
