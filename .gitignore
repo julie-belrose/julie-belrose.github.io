@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 #JetBrains
 .idea/
+
+#documention local
+docs/
