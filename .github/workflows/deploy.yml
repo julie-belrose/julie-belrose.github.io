@@ -28,8 +28,8 @@ jobs:
       - name: Install and build your site
         uses: withastro/action@v3
         with:
-         node-version: 18 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
-         package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
+         node-version: 22 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
+         package-manager: pnpm@10.12.4 # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
 
   deploy:
     needs: build
