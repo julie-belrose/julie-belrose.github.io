@@ -91,14 +91,7 @@
         "CSS",
         "SASS",
         "Git",
-        "TypeScript",
-        "Kafka",
-        "Elasticsearch",
-        "Redis",
-        "Kubernetes",
-        "AWS Lambda",
-        "Datadog",
-        "Grafana"
+        "TypeScript"
       ]
     },
     {
@@ -117,6 +110,7 @@
       "skills": [
         "NodeJS",
         "ExpressJS",
+        "PostgreSQL",
         "JavaScript",
         "Git"
       ]
