@@ -599,7 +599,8 @@
           "icon": "Docker",
           "name": "Docker"
         }
-      ]
+      ],
+      "url": "https://ghost-waster.onrender.com"
     },
     {
       "name": "Waste Reporting Application",
