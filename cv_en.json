@@ -1,13 +1,13 @@
 {
   "basics": {
     "name": "Julie Belrose",
-    "label": "Full-Stack Developer (Node.js / Angular – Back-End Oriented)",
+    "label": "Full-Stack Developer (Node.js / NestJS / Angular / Java Spring Boot)",
     "image": "/me_avatar2.jpg",
     "email": "juliebelrose.pro@gmail.com",
     "phone": "+33 6 24 59 58 77",
     "url": "https://julie-belrose.github.io/",
-    "summary": "Full-stack developer with 2 years of experience in a fast-growing SaaS startup and currently in advanced application development training (M2I).",
-    "summary_second": "Experienced in full-cycle development and passionate about emerging technologies, including AI and Cloud solutions.",
+    "summary": "Full-stack developer with 2 years of production experience on a microservices SaaS. Comfortable across the whole stack: Angular and React Native on the front end, Node.js, NestJS and Java Spring Boot on the back end, PostgreSQL and MongoDB, Docker and CI/CD on AWS and GCP.",
+    "summary_second": "Application Designer & Developer title (CDA, Bac+4), Google AI, AWS and GCP certified. A dual Art & Tech background that brings real product and UX sensitivity.",
     "theme": "default",
     "location": {
       "address": "",
@@ -16,7 +16,7 @@
       "countryCode": "FR",
       "region": "Île-de-France"
     },
-    "availability": "Open to full-time position in Paris",
+    "availability": "Open to full-time position in Paris – mobile across France and abroad",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -43,13 +43,13 @@
   "work": [
     {
       "name": "UMI",
-      "position": "Full-Stack Developer",
+      "position": "Full-Stack Developer Node.js / Angular",
       "location_type": "Hybrid",
       "location": "Lyon, Auvergne-Rhône-Alpes",
       "url": "https://umi-innovation.com/fr/",
       "startDate": "2021-11-04",
       "endDate": "2023-11-04",
-      "summary": "Developed SaaS applications for enterprise social networking, custom quizzes, and data automation using Angular, Node.js, and MongoDB within a growing startup.",
+      "summary": "SaaS startup (AI & Big Data, microservices architecture): developed core features of a quiz SaaS platform using Node.js, Angular and MongoDB.",
       "highlights": [
         "Improved website performance by optimizing code"
       ],
@@ -67,11 +67,10 @@
         "Agile : actively participated in Scrum ceremonies"
       ],
       "achievements": [
-        "Strategically refactored a complex front-end feature: optimized Angular code, reduced incidents by 98%, and improved user experience",
-        "Designed and implemented core business features (dynamic question types) for the main SaaS product",
-        "Created advanced reporting and analytics systems for market test data",
-        "Refactored critical Angular applications to eliminate production bugs and boost performance",
-        "Collaborated with UX/UI team to maintain visual coherence as Design System lead"
+        "Developed core business features (dynamic questions) of a microservices quiz SaaS platform",
+        "Fully refactored Node.js and Angular modules: permanently resolved 97% of handled bugs",
+        "Improved the reporting, analytics, in-app notification and email alert systems",
+        "Ensured design system consistency across several Angular applications with the UX/UI team"
       ],
       "skills": [
         "MongoDB",
@@ -91,6 +90,34 @@
         "HTML",
         "CSS",
         "SASS",
+        "Git",
+        "TypeScript",
+        "Kafka",
+        "Elasticsearch",
+        "Redis",
+        "Kubernetes",
+        "AWS Lambda",
+        "Datadog",
+        "Grafana"
+      ]
+    },
+    {
+      "name": "O'clock – O'Coaching (post-training service)",
+      "position": "Lead Back-End Developer",
+      "location_type": "Remote",
+      "location": "",
+      "url": "https://oclock.io/",
+      "startDate": "2021-05-01",
+      "endDate": "2021-07-31",
+      "summary": "Built the back end of a post-training follow-up platform connected to the O'clock API.",
+      "achievements": [
+        "REST API with Node.js, Express and PostgreSQL: authentication and integration of the external O'clock API",
+        "Lead back-end role: architecture choices, technical decisions and coordination of a 5-person team"
+      ],
+      "skills": [
+        "NodeJS",
+        "ExpressJS",
+        "JavaScript",
         "Git"
       ]
     }
@@ -110,25 +137,28 @@
   ],
   "education": [
     {
-      "institution": "Application Developer Training Program (CDA)",
+      "institution": "Application Designer & Developer (CDA) – obtained October 2026",
       "url": "https://macarriere.m2iformation.fr/offres-alt/concepteur-rice-developpeur-se-d-applications/89/",
       "area": "M2i - Professional training school",
-      "studyType": "Advanced Technical Diploma (equivalent to Bachelor's level)",
+      "studyType": "RNCP Level 6 professional title (Bac+4)",
       "startDate": "2025-03-16",
-      "endDate": "2025-10-15",
+      "endDate": "2026-10-15",
       "score": "",
       "courses": []
     },
     {
-      "institution": "Personal Projects - Independent Developer",
-      "area": "Home",
+      "institution": "Full-Stack Projects & Certifications – structured self-learning",
+      "area": "Paris",
       "startDate": "2023-11-04",
-      "endDate": "2025-03-16",
+      "endDate": "2026-08-31",
       "score": "",
       "courses": [
-        "Java 21",
+        "Java SE 21",
         "Spring Boot 3",
-        "Google Cloud Platform"
+        "Google Cloud Platform",
+        "NestJS",
+        "React Native",
+        "Generative AI"
       ]
     },
     {
@@ -176,6 +206,12 @@
     }
   ],
   "courses": [
+    {
+      "name": "Google AI Essentials",
+      "date": "2024-09-01",
+      "issuer": "Google - Coursera",
+      "teaching": "Taught in English"
+    },
     {
       "name": "Fundamentals of Card Payment",
       "date": "2025-01-29",
@@ -247,8 +283,7 @@
       "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/6410ba8d79bdeb036b8383b9"
     }
   ],
-  "skills": [
-  ],
+  "skills": [],
   "backend": [
     {
       "icon": "NodeJS",
@@ -273,7 +308,7 @@
       ]
     },
     {
-      "icon" : "Java",
+      "icon": "Java",
       "name": "Java SE 21",
       "level": "Intermediate",
       "keywords": [
@@ -283,7 +318,7 @@
       ]
     },
     {
-      "icon" : "SpringBoot",
+      "icon": "SpringBoot",
       "name": "Spring Boot 3",
       "level": "Intermediate",
       "keywords": [
@@ -339,7 +374,7 @@
   ],
   "ci": [
     {
-      "icon" : "Maven",
+      "icon": "Maven",
       "name": "Apache Maven",
       "level": "junior",
       "keywords": [
@@ -386,7 +421,7 @@
       ]
     },
     {
-      "icon" : "JUnit",
+      "icon": "JUnit",
       "name": "JUnit 5",
       "level": "junior",
       "keywords": [
@@ -468,7 +503,7 @@
       ]
     }
   ],
-  "system":[
+  "system": [
     {
       "icon": "macOS",
       "level": "Expert",
@@ -496,13 +531,13 @@
     {
       "language": "French",
       "fluency": "Native language",
-      "icon" : "Lang"
+      "icon": "Lang"
     },
     {
       "language": "English",
       "fluency": "B2",
       "url": "https://cert.efset.org/fr/KaxuTk",
-      "icon" : "Lang"
+      "icon": "Lang"
     }
   ],
   "interests": [
@@ -704,10 +739,20 @@
       ],
       "github": "https://github.com/julie-belrose/portfolio",
       "technos": [
-        { "icon": "AstroIcon", "name": "Astro" },
-        { "icon": "Tailwind" },
-        { "icon": "TypeScript" },
-        { "icon": "GitHubAction", "name": "GitHub Actions" }
+        {
+          "icon": "AstroIcon",
+          "name": "Astro"
+        },
+        {
+          "icon": "Tailwind"
+        },
+        {
+          "icon": "TypeScript"
+        },
+        {
+          "icon": "GitHubAction",
+          "name": "GitHub Actions"
+        }
       ]
     },
     {
@@ -749,5 +794,4 @@
       ]
     }
   ]
-
 }
