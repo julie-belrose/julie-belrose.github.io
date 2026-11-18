@@ -14,7 +14,7 @@ const LANG_ICONS: Record<string, any> = {
 
   {
     languages.length > 0 && (
-      <>
+      <Fragment>
         <ul class="space-y-4 py-3 print:space-y-0">
           {languages.map(({ language, fluency,url, icon }) => {
 
@@ -33,7 +33,7 @@ const LANG_ICONS: Record<string, any> = {
             );
           })}
         </ul>
-      </>
+      </Fragment>
     )
   }
 

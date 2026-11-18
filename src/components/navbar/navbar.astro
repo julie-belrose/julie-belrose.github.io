@@ -32,7 +32,7 @@ const menuitems = [
         <ul class="flex flex-col lg:flex-row lg:gap-3">
           {
             menuitems.map((item) => (
-              <>
+              <Fragment>
                 {item && (
                   <li>
                     <a href={item.path} class="flex lg:px-3 py-2 items-center text-skin-base hover:text-skin-base">
@@ -40,7 +40,7 @@ const menuitems = [
                     </a>
                   </li>
                 )}
-              </>
+              </Fragment>
             ))
           }
         </ul>
