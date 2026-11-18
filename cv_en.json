@@ -559,6 +559,49 @@
   ],
   "projects": [
     {
+      "name": "GhostWaster – Bulky Waste Reporting App",
+      "isActive": true,
+      "description": "CDA certification project: a citizen mobile app to report and collect bulky waste in large cities, built full stack while combining the Product Owner, developer and UX/UI roles.",
+      "highlights": [
+        "REST API with NestJS and TypeScript: JWT authentication (Passport), validation with class-validator, Swagger documentation",
+        "PostgreSQL database hosted on Supabase, with PostGIS for geolocated reports",
+        "Cross-platform mobile app with React Native and Expo (Expo Router, geolocation, image picker, push notifications)",
+        "Real-database testing: Vitest specs running repository SQL against an in-memory Postgres + PostGIS (PGlite)",
+        "Schema drift check between the SQL schema and the Supabase migrations",
+        "End-to-end tests with Playwright, quality tracked with SonarCloud and GitLab CI"
+      ],
+      "technos": [
+        {
+          "icon": "NestJS",
+          "name": "NestJS"
+        },
+        {
+          "icon": "TypeScript",
+          "name": "TypeScript"
+        },
+        {
+          "icon": "PostgreSQL",
+          "name": "PostgreSQL"
+        },
+        {
+          "icon": "Supabase",
+          "name": "Supabase"
+        },
+        {
+          "icon": "React",
+          "name": "React Native"
+        },
+        {
+          "icon": "Expo",
+          "name": "Expo"
+        },
+        {
+          "icon": "Docker",
+          "name": "Docker"
+        }
+      ]
+    },
+    {
       "name": "Waste Reporting Application",
       "isActive": true,
       "description": "A fullstack group project built in Agile Scrum, enabling citizens, agents, and administrators to report and manage urban waste issues efficiently.",
