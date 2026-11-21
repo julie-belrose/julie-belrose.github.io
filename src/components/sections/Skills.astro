@@ -1,164 +1,95 @@
 ---
 import Section from "../Section.astro";
+import { skills } from "@cv";
+
 import HTML from "../ui/icons/Programming/frontend/html.astro";
 import CSS from "../ui/icons/Programming/frontend/css.astro";
 import JavaScript from "../ui/icons/Programming/frontend/javascript.astro";
 import TypeScript from "../ui/icons/type.astro";
+import Angular from "../ui/icons/Programming/frontend/angular.astro";
+import React from "../ui/icons/Programming/frontend/react.astro";
+import SASS from "../ui/icons/Programming/frontend/sass.astro";
+import Tailwind from "../ui/icons/Programming/frontend/tailwind.astro";
+import Expo from "../ui/icons/Programming/frontend/expo.astro";
 import NodeJS from "../ui/icons/Programming/backend/node.astro";
+import NestJS from "../ui/icons/Programming/backend/nestjs.astro";
+import ExpressJS from "../ui/icons/Programming/backend/expressjs.astro";
+import Java from "../ui/icons/Programming/backend/java.astro";
+import SpringBoot from "../ui/icons/Programming/backend/springboot.astro";
+import JUnit from "../ui/icons/Programming/backend/junit.astro";
+import MongoDB from "../ui/icons/Programming/backend/mongodb.astro";
+import Mongoose from "../ui/icons/Programming/backend/mongoose.astro";
+import SQL from "../ui/icons/Programming/backend/sql.astro";
+import PostgreSQL from "../ui/icons/Programming/backend/postgresql.astro";
+import Supabase from "../ui/icons/Programming/backend/supabase.astro";
+import Jest from "../ui/icons/Programming/jest.astro";
+import Tests from "../ui/icons/test.astro";
 import Git from "../ui/icons/Programming/git.astro";
 import GitHub from "../ui/icons/Programming/github.astro";
-import { skills } from "@cv";
-import SpringBoot from "../ui/icons/Programming/backend/springboot.astro";
-import MongoDB from "../ui/icons/Programming/backend/mongodb.astro";
-import ExpressJS from "../ui/icons/Programming/backend/expressjs.astro";
-import Mongoose from "../ui/icons//Programming/backend/mongoose.astro";
-import Java from "../ui/icons//Programming/backend/java.astro";
-import Jest from "../ui/icons//Programming/jest.astro";
-import SQL from "../ui/icons//Programming/backend/sql.astro";
-import  PostgreSQL from "../ui/icons//Programming/backend/postgresql.astro";
-import Maven from "../ui/icons//Programming/CI-CD/maven.astro";
-import Gradle from "../ui/icons//Programming/CI-CD/gradle.astro";
-import Angular from "../ui/icons//Programming/frontend/angular.astro";
-import SASS from "../ui/icons//Programming/frontend/sass.astro";
-import JUnit from "../ui/icons//Programming/backend/junit.astro";
-import macOS from "../ui/icons//Programming/system_exploitation/macos.astro";
-import Windows from "../ui/icons//Programming/system_exploitation/windows.astro";
-import Linux from "../ui/icons//Programming/system_exploitation/linux.astro";
-import Tests from "../ui/icons//test.astro";
-
-import { backend , ci, cd, frontend, test, utils, database , system }from "@cv";
+import GitHubAction from "../ui/icons/Programming/CI-CD/githubaction.astro";
+import Docker from "../ui/icons/Programming/CI-CD/docker.astro";
+import Maven from "../ui/icons/Programming/CI-CD/maven.astro";
+import Gradle from "../ui/icons/Programming/CI-CD/gradle.astro";
+import macOS from "../ui/icons/Programming/system_exploitation/macos.astro";
+import Windows from "../ui/icons/Programming/system_exploitation/windows.astro";
+import Linux from "../ui/icons/Programming/system_exploitation/linux.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
-  NodeJS,
-	ExpressJS,
-	MongoDB,
-	Mongoose,
-	Jest,
-	Java,
-	SpringBoot,
 	HTML,
 	CSS,
 	JavaScript,
 	TypeScript,
-	Git,
-	GitHub,
+	Angular,
+	React,
+	SASS,
+	Tailwind,
+	Expo,
+	NodeJS,
+	NestJS,
+	ExpressJS,
+	Java,
+	SpringBoot,
+	JUnit,
+	MongoDB,
+	Mongoose,
 	SQL,
 	PostgreSQL,
+	Supabase,
+	Jest,
+	Tests,
+	Git,
+	GitHub,
+	GitHubAction,
+	Docker,
 	Maven,
 	Gradle,
-	Angular,
-	SASS,
-	JUnit,
 	macOS,
 	Windows,
 	Linux,
-	Tests,
 };
 ---
 
 <Section className={Astro.props.className} title="Skills">
-	<h3>Back-end</h3>
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
-		{backend?.map(({ icon , name}) => {
-			const Icon = SKILLS_ICONS[icon];
-			return (
-				<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-					{Icon && <Icon />}
-					<span>{name ? name : icon}</span>
-				</li>
-			);
-		})}
-	</ul>
-
-	<h3>Database</h3>
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
-		{database?.map(({ icon}) => {
-			const Icon = SKILLS_ICONS[icon];
-			return (
-				<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-					{Icon && <Icon />}
-					<span>{icon}</span>
-				</li>
-			);
-		})}
-	</ul>
-
-	<h3>Continuous Integration - CI</h3>
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
-		{ci?.map(({ icon , name}) => {
-			const Icon = SKILLS_ICONS[icon];
-			return (
-				<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-					{Icon && <Icon />}
-					<span>{name ? name : icon}</span>
-				</li>
-			);
-		})}
-	</ul>
-
-	<h3>Continuous Deployment - Devops - CD</h3>
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
-		{cd.map(({ icon}) => {
-			const Icon = SKILLS_ICONS[icon];
-			return (
-				<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-					{Icon && <Icon />}
-					<span>{icon}</span>
-				</li>
-			);
-		})}
-	</ul>
-
-	<h3>Tests - TDD - Clean code</h3>
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
-		{test?.map(({ icon , name}) => {
-			const Icon = SKILLS_ICONS[icon];
-			return (
-				<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-					{Icon && <Icon />}
-					<span>{name ? name : icon}</span>
-				</li>
-			);
-		})}
-	</ul>
-
-	<h3>Front-end</h3>
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
-		{frontend?.map(({ icon}) => {
-			const Icon = SKILLS_ICONS[icon];
-			return (
-				<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-					{Icon && <Icon />}
-					<span>{ icon}</span>
-				</li>
-			);
-		})}
-	</ul>
-
-	<h3>Utiils</h3>
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
-		{utils?.map(({ icon}) => {
-			const Icon = SKILLS_ICONS[icon];
-			return (
-				<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-					{Icon && <Icon />}
-					<span>{icon}</span>
-				</li>
-			);
-		})}
-	</ul>
-
-	<h3>Operating system</h3>
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
-		{system?.map(({ icon , name}) => {
-			const Icon = SKILLS_ICONS[icon];
-			return (
-				<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-					{Icon && <Icon />}
-					<span>{name ? name : icon}</span>
-				</li>
-			);
-		})}
-	</ul>
-
+	<!-- 2 columns when there is room: small tablets (sm) and large screens (lg).
+	     Between md and lg the page sidebar takes space, so cards stay on 1 column. -->
+	<div class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2">
+		{
+			skills.map(({ category, items }) => (
+				<div class="ring-skin-muted flex flex-col gap-3 rounded-md bg-skin-button-muted/50 p-4 shadow-sm ring-1 sm:p-5">
+					<h4 class="text-base font-medium">{category}</h4>
+					<ul class="flex flex-wrap gap-x-4 gap-y-2 [&>li>svg]:size-5 [&>li>svg]:shrink-0 [&>li>svg]:text-skin-hue">
+						{items.map(({ icon, name }) => {
+							const Icon = SKILLS_ICONS[icon];
+							return (
+								<li class="flex items-center gap-1.5 text-xs text-skin-muted">
+									{Icon && <Icon />}
+									<span>{name ?? icon}</span>
+								</li>
+							);
+						})}
+					</ul>
+				</div>
+			))
+		}
+	</div>
 </Section>

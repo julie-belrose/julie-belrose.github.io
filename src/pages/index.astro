@@ -1,41 +1,22 @@
 ---
-import Layout from "@/layouts/Layout.astro";
+// The home page renders whichever page is selected in src/config.ts.
+import { HOME_PAGE, type HomePage } from "@/config";
 
-import About from "@/components/sections/About.astro";
-import Hero from "@/components/sections/Hero.astro";
-import Projects from "@/components/sections/Projects.astro";
-import Tail from "@/components/sections/Tail.astro";
-import KeyboardManager from "@/components/KeyboardManager.astro";
+import Projects from "./projects.astro";
+import Experiences from "./experiences.astro";
+import Education from "./education.astro";
+import Skills from "./skills.astro";
+import Contact from "./contact.astro";
 
+const PAGES: Record<HomePage, any> = {
+	projects: Projects,
+	experiences: Experiences,
+	education: Education,
+	skills: Skills,
+	contact: Contact,
+};
 
-import { basics } from "@cv";
-import Navbar from "../components/navbar/navbar.astro";
-const { name, label } = basics;
+const Page = PAGES[HOME_PAGE];
 ---
 
-<Layout title={`${name} Portfolio - ${label}`}>
-	<Navbar />
-	<main class="relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-6 md:p-16 xl:gap-24 print:max-w-none print:grid-cols-1 print:gap-6">
-		<div class="space-y-6 md:col-span-2 print:col-span-1 print:grid print:grid-cols-2 print:gap-5 print:space-y-0">
-			<Hero />
-			<About />
-		</div>
-		<div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
-			<Projects className="print:hidden" />
-		</div>
-		<Tail />
-	</main>
-
-	<KeyboardManager />
-</Layout>
-
-<style>
-	@page {
-		size: auto;
-		margin: 0;
-	}
-	main {
-		margin: auto;
-		width: 100%;
-	}
-</style>
+<Page />

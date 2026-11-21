@@ -182,10 +182,55 @@
   ],
   "courses": [
     {
+      "name": "Spring Boot 3 - Simplify Java Application Development",
+      "date": "2024-08-01",
+      "issuer": "Dyma.fr - Professional training platform",
+      "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/64799f7159ebb4f1e99bfb8b",
+      "category": "Back-end"
+    },
+    {
+      "name": "Java SE 21 - Versatile Language for Cross-Platform Applications",
+      "date": "2024-08-01",
+      "issuer": "Dyma.fr - Professional training platform",
+      "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/6410ba8d79bdeb036b8383b9",
+      "category": "Back-end"
+    },
+    {
+      "name": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
+      "date": "2024-12-01",
+      "issuer": "Google Cloud Platform - Coursera",
+      "url": "https://www.coursera.org/learn/google-cloud-java-spring",
+      "teaching": "Taught in English",
+      "courses": [
+        "Google Cloud Platform",
+        "Cloud SQL",
+        "Pub/Sub",
+        "Spring Integration",
+        "Cloud Trace"
+      ],
+      "category": "Cloud"
+    },
+    {
+      "name": "Software Craftsmanship Training",
+      "date": "2024-10-01",
+      "issuer": "Specialized web development platform",
+      "url": "https://academy.captaindev.io/coding-dojo-zero-to-craft",
+      "category": "Software Craftsmanship"
+    },
+    {
+      "name": "Foundations of Prompt Engineering",
+      "date": "2025-01-06",
+      "issuer": "AWS Training Online - Professional training platform",
+      "url": "https://courses.consensys.net/certificates/4wxksr5c35",
+      "teaching": "Taught in English",
+      "category": "Artificial Intelligence"
+    },
+    {
       "name": "Google AI Essentials",
       "date": "2024-09-01",
       "issuer": "Google - Coursera",
-      "teaching": "Taught in English"
+      "teaching": "Taught in English",
+      "category": "Artificial Intelligence"
     },
     {
       "name": "Fundamentals of Card Payment",
@@ -208,14 +253,8 @@
         "EMV & Contactless transactions",
         "Online PIN",
         "Certification & Compliance"
-      ]
-    },
-    {
-      "name": "Foundations of Prompt Engineering",
-      "date": "2025-01-06",
-      "issuer": "AWS Training Online - Professional training platform",
-      "url": "https://courses.consensys.net/certificates/4wxksr5c35",
-      "teaching": "Taught in English"
+      ],
+      "category": "Fintech & Blockchain"
     },
     {
       "name": "Blockchain Essentials - An Introduction to Blockchain",
@@ -223,282 +262,324 @@
       "issuer": "Consensys Academy - Professional training platform",
       "url": "https://courses.consensys.net/certificates/4wxksr5c35",
       "teaching": "Taught in English",
-      "courses": []
-    },
-    {
-      "name": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
-      "date": "2024-12-01",
-      "issuer": "Google Cloud Platform - Coursera",
-      "url": "https://www.coursera.org/learn/google-cloud-java-spring",
-      "teaching": "Taught in English",
-      "courses": [
-        "Google Cloud Platform",
-        "Cloud SQL",
-        "Pub/Sub",
-        "Spring Integration",
-        "Cloud Trace"
-      ]
-    },
-    {
-      "name": "Software Craftsmanship Training",
-      "date": "2024-10-01",
-      "issuer": "Specialized web development platform",
-      "url": "https://academy.captaindev.io/coding-dojo-zero-to-craft"
-    },
-    {
-      "name": "Spring Boot 3 - Simplify Java Application Development",
-      "date": "2024-08-01",
-      "issuer": "Dyma.fr - Professional training platform",
-      "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/64799f7159ebb4f1e99bfb8b"
-    },
-    {
-      "name": "Java SE 21 - Versatile Language for Cross-Platform Applications",
-      "date": "2024-08-01",
-      "issuer": "Dyma.fr - Professional training platform",
-      "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/6410ba8d79bdeb036b8383b9"
+      "courses": [],
+      "category": "Fintech & Blockchain"
     }
   ],
-  "skills": [],
-  "backend": [
+  "skills": [
     {
-      "icon": "NodeJS",
-      "name": "Node.js",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
+      "category": "Back-end",
+      "items": [
+        {
+          "icon": "NodeJS",
+          "name": "Node.js",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "JavaScript",
+            "Server"
+          ]
+        },
+        {
+          "icon": "NestJS",
+          "level": "Intermediate",
+          "keywords": [
+            "Backend",
+            "Node.js",
+            "TypeScript"
+          ]
+        },
+        {
+          "icon": "ExpressJS",
+          "name": "Express.js",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "JavaScript",
+            "Server"
+          ]
+        },
+        {
+          "icon": "Java",
+          "name": "Java SE 21",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server"
+          ]
+        },
+        {
+          "icon": "SpringBoot",
+          "name": "Spring Boot 3",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server"
+          ]
+        }
       ]
     },
     {
-      "icon": "ExpressJS",
-      "name": "Express.js",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
+      "category": "Front-end & Mobile",
+      "items": [
+        {
+          "icon": "Angular",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Frontend"
+          ]
+        },
+        {
+          "icon": "React",
+          "level": "Intermediate",
+          "keywords": [
+            "Frontend"
+          ]
+        },
+        {
+          "icon": "TypeScript",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Frontend",
+            "Backend",
+            "JavaScript Superset"
+          ]
+        },
+        {
+          "icon": "JavaScript",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Frontend",
+            "Backend",
+            "Fullstack"
+          ]
+        },
+        {
+          "icon": "SASS",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Frontend",
+            "Responsive Design"
+          ]
+        },
+        {
+          "icon": "Tailwind",
+          "name": "Tailwind CSS",
+          "level": "Intermediate",
+          "keywords": [
+            "Frontend",
+            "CSS"
+          ]
+        },
+        {
+          "icon": "Expo",
+          "level": "junior",
+          "keywords": [
+            "Mobile",
+            "React Native"
+          ]
+        }
       ]
     },
     {
-      "icon": "Java",
-      "name": "Java SE 21",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server"
+      "category": "Databases",
+      "items": [
+        {
+          "icon": "PostgreSQL",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server"
+          ]
+        },
+        {
+          "icon": "SQL",
+          "level": "Intermediate",
+          "keywords": [
+            "Databases",
+            "SQL",
+            "Data Storage",
+            "Backend"
+          ]
+        },
+        {
+          "icon": "MongoDB",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Base de donnée",
+            "NoSQL"
+          ]
+        },
+        {
+          "icon": "Mongoose",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Base de donnée",
+            "NoSQL",
+            "ODM"
+          ]
+        },
+        {
+          "icon": "Supabase",
+          "level": "junior",
+          "keywords": [
+            "Database",
+            "Backend as a Service"
+          ]
+        }
       ]
     },
     {
-      "icon": "SpringBoot",
-      "name": "Spring Boot 3",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server"
-      ]
-    }
-  ],
-  "database": [
-    {
-      "icon": "MongoDB",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Base de donnée",
-        "NoSQL"
-      ]
-    },
-    {
-      "icon": "Mongoose",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Base de donnée",
-        "NoSQL",
-        "ODM"
-      ]
-    },
-    {
-      "icon": "SQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
-    },
-    {
-      "icon": "PostgreSQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server"
-      ]
-    }
-  ],
-  "ci": [
-    {
-      "icon": "Maven",
-      "name": "Apache Maven",
-      "level": "junior",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Build"
+      "category": "Tests & Quality",
+      "items": [
+        {
+          "icon": "Jest",
+          "level": "junior",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Test",
+            "TDD",
+            "Test-Driven-development"
+          ]
+        },
+        {
+          "icon": "JUnit",
+          "name": "JUnit 5",
+          "level": "junior",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Test",
+            "TDD",
+            "Test-Driven-development"
+          ]
+        },
+        {
+          "icon": "Tests",
+          "name": "TDD",
+          "level": "junior",
+          "keywords": [
+            "Software craftsmanship",
+            "TDD",
+            "Test-driven-development"
+          ]
+        },
+        {
+          "icon": "Tests",
+          "name": "Software craftsmanship",
+          "level": "junior",
+          "keywords": [
+            "Software craftsmanship",
+            "TDD",
+            "Test-driven-development"
+          ]
+        }
       ]
     },
     {
-      "icon": "Gradle",
-      "level": "junior",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Build"
-      ]
-    }
-  ],
-  "cd": [
-    {
-      "icon": "GitHub",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
-      ]
-    }
-  ],
-  "test": [
-    {
-      "icon": "Jest",
-      "level": "junior",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Test",
-        "TDD",
-        "Test-Driven-development"
-      ]
-    },
-    {
-      "icon": "JUnit",
-      "name": "JUnit 5",
-      "level": "junior",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Test",
-        "TDD",
-        "Test-Driven-development"
-      ]
-    },
-    {
-      "icon": "Tests",
-      "level": "junior",
-      "keywords": [
-        "Software craftsmanship",
-        "TDD",
-        "Test-driven-development"
-      ]
-    },
-    {
-      "icon": "Tests",
-      "name": "Software craftsmanship",
-      "level": "junior",
-      "keywords": [
-        "Software craftsmanship",
-        "TDD",
-        "Test-driven-development"
-      ]
-    }
-  ],
-  "frontend": [
-    {
-      "icon": "Angular",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend"
+      "category": "Tools & DevOps",
+      "items": [
+        {
+          "icon": "Git",
+          "level": "Intermediate",
+          "keywords": [
+            "Version Control",
+            "Collaboration",
+            "Source Code"
+          ]
+        },
+        {
+          "icon": "GitHub",
+          "level": "Intermediate",
+          "keywords": [
+            "Version Control",
+            "Collaboration",
+            "Source Code",
+            "Git"
+          ]
+        },
+        {
+          "icon": "GitHubAction",
+          "name": "GitHub Actions",
+          "level": "junior",
+          "keywords": [
+            "CI/CD"
+          ]
+        },
+        {
+          "icon": "Docker",
+          "level": "junior",
+          "keywords": [
+            "Containers",
+            "DevOps"
+          ]
+        },
+        {
+          "icon": "Maven",
+          "name": "Apache Maven",
+          "level": "junior",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Build"
+          ]
+        },
+        {
+          "icon": "Gradle",
+          "level": "junior",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Build"
+          ]
+        }
       ]
     },
     {
-      "icon": "SASS",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
-    },
-    {
-      "icon": "JavaScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "icon": "TypeScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    }
-  ],
-  "utils": [
-    {
-      "icon": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    }
-  ],
-  "system": [
-    {
-      "icon": "macOS",
-      "level": "Expert",
-      "keywords": [
-        "System exploitation"
-      ]
-    },
-    {
-      "icon": "Linux",
-      "name": "Linux (Ubuntu)",
-      "level": "Expert",
-      "keywords": [
-        "System exploitation"
-      ]
-    },
-    {
-      "icon": "Windows",
-      "level": "Expert",
-      "keywords": [
-        "System exploitation"
+      "category": "Operating systems",
+      "items": [
+        {
+          "icon": "macOS",
+          "level": "Expert",
+          "keywords": [
+            "System exploitation"
+          ]
+        },
+        {
+          "icon": "Linux",
+          "name": "Linux (Ubuntu)",
+          "level": "Expert",
+          "keywords": [
+            "System exploitation"
+          ]
+        },
+        {
+          "icon": "Windows",
+          "level": "Expert",
+          "keywords": [
+            "System exploitation"
+          ]
+        }
       ]
     }
   ],
@@ -664,7 +745,7 @@
         "Clean structure separating data, services, and user interface",
         "Easily extendable: can be connected later to a database or a graphical interface"
       ],
-      "github": "https://github.com/julie-belrose/ticket-office",
+      "github": "https://github.com/julie-belrose/Ticket-office",
       "technos": [
         {
           "icon": "Java",
@@ -729,7 +810,7 @@
         "Implemented real-time filtering of Pokémon names and types, case-insensitive",
         "Designed a simple but interactive UI with clear search, type filter, and empty state feedback"
       ],
-      "github": "https://github.com/julie-belrose/minipokedex",
+      "github": "https://github.com/julie-belrose/Mini_Pokedex",
       "technos": [
         {
           "icon": "React",
@@ -756,7 +837,7 @@
         "Navigation bar implementation",
         "Deployment via GitHub Pages with GitHub Actions"
       ],
-      "github": "https://github.com/julie-belrose/portfolio",
+      "github": "https://github.com/julie-belrose/julie-belrose.github.io",
       "technos": [
         {
           "icon": "AstroIcon",

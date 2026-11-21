@@ -5,8 +5,9 @@ export interface CV {
   education: Array<Education>;
   awards: Array<Awards>;
   certificates: Array<Certificates>;
+  courses: Array<Courses>;
   publications: Array<Publications>;
-  skills: Array<Skills>;
+  skills: Array<SkillCategory>;
   languages: Array<Languages>;
   interests: Array<Interests>;
   references: Array<References>;
@@ -61,6 +62,11 @@ interface Volunteer {
   highlights: Highlight;
 }
 
+interface SkillCategory {
+  category: string;
+  items: Array<Skills>;
+}
+
 interface Skills {
   icon: string;
   name?: string;
@@ -80,6 +86,14 @@ interface Certificates {
   date: DateStr;
   issuer: string;
   url: string;
+}
+
+interface Courses {
+  name: string;
+  date: DateStr;
+  issuer: string;
+  url: string;
+  category: string;
 }
 
 interface Publications {
