@@ -1,16 +1,19 @@
 ---
+import { getCV, getLang, useTranslations } from "@/i18n/utils";
 import Section from "../Section.astro";
 
-import {languages } from "@cv";
 import  Lang from "../ui/icons/lang.astro";
 
+const lang = getLang(Astro.url);
+const t = useTranslations(lang);
+const { languages } = getCV(lang);
 
 const LANG_ICONS: Record<string, any> = {
  Lang,
 };
 ---
 
-<Section className={Astro.props.className} title="Languages">
+<Section className={Astro.props.className} title={t("section.languages")}>
 
   {
     languages.length > 0 && (

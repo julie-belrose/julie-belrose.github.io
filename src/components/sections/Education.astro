@@ -1,9 +1,10 @@
 ---
+import { getCV, getLang, useTranslations } from "@/i18n/utils";
 import Section from "../Section.astro";
 
-import { education } from "@cv";
-import { certificates } from "@cv";
-import { courses } from "@cv";
+const lang = getLang(Astro.url);
+const t = useTranslations(lang);
+const { education, certificates, courses } = getCV(lang);
 
 // Group training courses by category (order of first appearance), newest first in each group.
 const coursesByCategory = Object.entries(
@@ -17,18 +18,18 @@ const coursesByCategory = Object.entries(
 }));
 ---
 
-<Section className={Astro.props.className} title="Education">
+<Section className={Astro.props.className} title={t("section.education")}>
 
 	{
 		courses.length > 0 && (
 			<Fragment>
 
-				<h4>Diplomas</h4>
+				<h4>{t("education.diplomas")}</h4>
 				<ul class="space-y-4 py-3 print:space-y-0">
 					{
 						education.map(({ institution, startDate, endDate, area, url }) => {
 							const startYear = new Date(startDate).getFullYear();
-							const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual";
+							const endYear = endDate != null ? new Date(endDate).getFullYear() : t("education.ongoing");
 							const years = `${startYear} - ${endYear}`;
 
 							return (
@@ -56,7 +57,7 @@ const coursesByCategory = Object.entries(
 				{
 					certificates.length > 0 && (
 						<Fragment>
-							<h4>Professional certifications</h4>
+							<h4>{t("education.certifications")}</h4>
 							<ul class="space-y-4 py-3 print:space-y-0">
 								{certificates.map(({ name, date, issuer, url }) => {
 									const certificateYear = new Date(date).getFullYear();
@@ -85,7 +86,7 @@ const coursesByCategory = Object.entries(
 					)
 				}
 
-				<h4>Courses</h4>
+				<h4>{t("education.courses")}</h4>
 				<!-- Same grid as Skills: 2 columns when there is room, 1 column on mobile and between md and lg. -->
 				<div class="grid grid-cols-1 gap-3 py-3 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2">
 					{coursesByCategory.map(({ category, items }) => (

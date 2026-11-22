@@ -1,18 +1,21 @@
+// Shape of cv_en.json and cv.json. Both files are checked against it in src/i18n/utils.ts,
+// so the build fails if one language is missing a field.
 export interface CV {
   basics: Basics;
   work: Array<Work>;
   volunteer: Array<Volunteer>;
   education: Array<Education>;
-  awards: Array<Awards>;
   certificates: Array<Certificates>;
   courses: Array<Courses>;
-  publications: Array<Publications>;
   skills: Array<SkillCategory>;
   languages: Array<Languages>;
   interests: Array<Interests>;
   references: Array<References>;
   projects: Array<Projects>;
 }
+
+type DateStr = string;
+type Highlight = Array<string>;
 
 interface Basics {
   name: string;
@@ -22,7 +25,10 @@ interface Basics {
   phone: string;
   url: string;
   summary: string;
+  summary_second: string;
+  theme: string;
   location: Location;
+  availability: string;
   profiles: Array<Profiles>;
 }
 
@@ -43,14 +49,17 @@ interface Profiles {
 interface Work {
   name: string;
   position: string;
+  location_type: string;
+  location: string;
   url: string;
   startDate: DateStr;
   endDate: DateStr | null;
   summary: string;
-  highlights: Highlight;
+  highlights?: Highlight;
+  responsibilities?: Highlight;
+  achievements?: Highlight;
+  skills: Array<string>;
 }
-
-type DateStr = `${string}-${string}-${string}`;
 
 interface Volunteer {
   organization: string;
@@ -60,6 +69,34 @@ interface Volunteer {
   endDate: DateStr;
   summary: string;
   highlights: Highlight;
+}
+
+interface Education {
+  institution: string;
+  url: string;
+  area: string;
+  studyType: string;
+  startDate: DateStr;
+  endDate: DateStr | null;
+  score: string;
+  courses: Array<string>;
+}
+
+interface Certificates {
+  name: string;
+  date: DateStr;
+  issuer: string;
+  url?: string;
+}
+
+interface Courses {
+  name: string;
+  date: DateStr;
+  issuer: string;
+  url?: string;
+  teaching?: string;
+  courses?: Array<string>;
+  category: string;
 }
 
 interface SkillCategory {
@@ -74,87 +111,16 @@ interface Skills {
   keywords: Array<string>;
 }
 
-interface Awards {
-  title: string;
-  date: string;
-  awarder: string;
-  summary: string;
-}
-
-interface Certificates {
-  name: string;
-  date: DateStr;
-  issuer: string;
-  url: string;
-}
-
-interface Courses {
-  name: string;
-  date: DateStr;
-  issuer: string;
-  url: string;
-  category: string;
-}
-
-interface Publications {
-  name: string;
-  publisher: string;
-  releaseDate: DateStr;
-  url: string;
-  summary: string;
-}
-
-interface Education {
-  institution: string;
-  url: string;
-  area: string;
-  studyType: string;
-  startDate: DateStr;
-  endDate: DateStr;
-  score: string;
-  courses: Array<string>;
-}
-
 interface Languages {
-  language: Language;
+  language: string;
   fluency: string;
-}
-
-type Language =
-  | "Spanish"
-  | "English"
-  | "German"
-  | "France"
-  | "Italian"
-  | "Korean"
-  | "Portuguese"
-  | "Chinese"
-  | "Arabic"
-  | "Dutch"
-  | "Finnish"
-  | "Russian"
-  | "Turkish"
-  | "Hindi"
-  | "Bengali"
-  | string;
-
-type Technos = {
+  url?: string;
   icon: string;
-  name? :string;
-}
-
-interface Projects {
-  name: string;
-  isActive: boolean;
-  description: string;
-  highlights: Highlight;
-  url: string;
-  github?: string;
-  technos: Technos[];
 }
 
 interface Interests {
   name: string;
+  icon: string;
   keywords: Array<string>;
 }
 
@@ -163,4 +129,17 @@ interface References {
   reference: string;
 }
 
-type Highlight = Array<String>;
+type Technos = {
+  icon: string;
+  name?: string;
+};
+
+interface Projects {
+  name: string;
+  isActive: boolean;
+  description: string;
+  highlights: Highlight;
+  url?: string;
+  github?: string;
+  technos: Technos[];
+}

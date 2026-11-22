@@ -1,27 +1,33 @@
 ---
-import { basics } from "@cv";
+import { LANGS, getCV, getLang, localizePath } from "@/i18n/utils";
 
 interface Props {
-	title: string;
+	title?: string;
 }
 
-const { title } = Astro.props;
+const lang = getLang(Astro.url);
+const { name, label, image, summary, url, theme } = getCV(lang).basics;
+const { title = `${name} Portfolio - ${label}` } = Astro.props;
 
-const { image, summary, url, theme } = basics;
+// Same page in every language, so search engines link the versions together.
+const alternates = LANGS.map((code) => ({ code, href: new URL(localizePath(Astro.url.pathname, code), Astro.site).href }));
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
 	<head>
 		<meta charset="UTF-8" />
 		<title>{title}</title>
 		<meta name="description" content={summary} />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		{alternates.map(({ code, href }) => <link rel="alternate" hreflang={code} href={href} />)}
+		<link rel="alternate" hreflang="x-default" href={alternates[0].href} />
 		<link rel="preload" as="image" href={image} />
 
 		<meta property="og:url" content={url} />
 		<meta property="og:type" content="website" />
+		<meta property="og:locale" content={lang === "fr" ? "fr_FR" : "en_US"} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={summary} />
 		<meta property="og:image" content="" />
@@ -36,6 +42,15 @@ const { image, summary, url, theme } = basics;
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim" />
 
 		<link rel="stylesheet" href="/themes/themes.css" />
+
+		<!-- Applies the theme before the first paint (no light/dark flash). Toggled by ThemeSwitch. -->
+		<script is:inline>
+			const savedTheme = localStorage.getItem("theme");
+			const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+			// No choice yet (or "system", saved by the old dropdown): follow the OS setting.
+			const isDark = savedTheme === "dark" || savedTheme === "light" ? savedTheme === "dark" : prefersDark;
+			document.documentElement.classList.toggle("dark", isDark);
+		</script>
 
 	</head>
 	<body data-theme={theme} class="relative bg-skin-fill">

@@ -1,4 +1,5 @@
 ---
+import { getCV, getLang, useTranslations } from "@/i18n/utils";
 import Section from "../Section.astro";
 
 import Blockchain from "../ui/icons/Programming/blockchain/blockchain.astro";
@@ -7,8 +8,9 @@ import Ethereum from "../ui/icons/Programming/blockchain/ethereum.astro";
 import AI from "../ui/icons/Programming/ai.astro";
 import Cybersecurity from "../ui/icons/Programming/backend/security.astro";
 
-import { interests } from "@cv";
-
+const lang = getLang(Astro.url);
+const t = useTranslations(lang);
+const { interests } = getCV(lang);
 
 const SKILLS_ICONS: Record<string, any> = {
   Ethereum,
@@ -19,12 +21,11 @@ const SKILLS_ICONS: Record<string, any> = {
 };
 ---
 
-<Section className={Astro.props.className} title="Interests">
+<Section className={Astro.props.className} title={t("section.interests")}>
   <ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
     {
-      interests.map(({ name }) => {
-        const iconName = name;
-        const Icon = SKILLS_ICONS[iconName];
+      interests.map(({ name, icon }) => {
+        const Icon = SKILLS_ICONS[icon];
 
         return (
           <li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">

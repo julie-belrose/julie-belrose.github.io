@@ -2,36 +2,22 @@
 import Container from "../container.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 import ThemeSwitch from "../ThemeSwitch.astro";
+import LangSwitch from "../LangSwitch.astro";
+import { getLang, localizePath, useTranslations } from "@/i18n/utils";
 
-const menuitems = [
-  {
-    title: "Projects",
-    path: "/projects",
-  },
-  {
-    title: "Experiences",
-    path: "/experiences",
-  },
-  {
-    title: "Education",
-    path: "/education",
-  },
-  {
-    title: "Skills",
-    path: "/skills",
-  },
-  {
-    title: "Contact",
-    path: "/contact",
-  },
-];
+const lang = getLang(Astro.url);
+const t = useTranslations(lang);
+
+const PAGES = ["projects", "experiences", "education", "skills", "contact"] as const;
+const menuitems = PAGES.map((page) => ({ title: t(`nav.${page}`), path: localizePath(`/${page}`, lang) }));
+
 ---
 
 <Container>
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-md"><span class="text-skin-base">Home</span></a>
+        <a href={localizePath("/", lang)} class="text-md"><span class="text-skin-base">{t("nav.home")}</span></a>
         <div class="block lg:hidden">
           <MenuIcon class="w-4 h-4 text-skin-base" />
         </div>
@@ -52,6 +38,7 @@ const menuitems = [
             ))
           }
         </ul>
+        <LangSwitch />
         <ThemeSwitch />
       </MenuItems>
     </Astronav>

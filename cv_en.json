@@ -602,7 +602,8 @@
       "keywords": [
         "AI",
         "Blockchain"
-      ]
+      ],
+      "icon": "Blockchain"
     },
     {
       "name": "Ethereum",
@@ -610,26 +611,30 @@
         "AI",
         "Blockchain",
         "Ethereum"
-      ]
+      ],
+      "icon": "Ethereum"
     },
     {
       "name": "Web3",
       "keywords": [
         "AI",
         "Blockchain"
-      ]
+      ],
+      "icon": "Web3"
     },
     {
       "name": "AI",
       "keywords": [
         "AI"
-      ]
+      ],
+      "icon": "AI"
     },
     {
       "name": "Cybersecurity",
       "keywords": [
         "AI"
-      ]
+      ],
+      "icon": "Cybersecurity"
     }
   ],
   "references": [
@@ -835,6 +840,7 @@
         "Development of custom Astro components",
         "Integration of a contact form using Web3form",
         "Navigation bar implementation",
+        "Bilingual site (English / French)",
         "Deployment via GitHub Pages with GitHub Actions"
       ],
       "github": "https://github.com/julie-belrose/julie-belrose.github.io",

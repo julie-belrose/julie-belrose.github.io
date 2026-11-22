@@ -1,6 +1,7 @@
 ---
 // The home page renders whichever page is selected in src/config.ts.
 import { HOME_PAGE, type HomePage } from "@/config";
+import { getLangPaths } from "@/i18n/utils";
 
 import Projects from "./projects.astro";
 import Experiences from "./experiences.astro";
@@ -17,6 +18,8 @@ const PAGES: Record<HomePage, any> = {
 };
 
 const Page = PAGES[HOME_PAGE];
+
+export const getStaticPaths = getLangPaths;
 ---
 
 <Page />

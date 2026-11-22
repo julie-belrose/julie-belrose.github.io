@@ -1,0 +1,59 @@
+---
+import { getCV, getLang, getLangPaths, useTranslations } from "@/i18n/utils";
+import Layout from "@/layouts/Layout.astro";
+import Navbar from "@/components/navbar/navbar.astro";
+import Container from "@/components/container.astro";
+import Sectionhead from "@/components/sectionhead.astro";
+import Contactform from "@/components/contactform.astro";
+import Mail from "@/components/ui/icons/profil/mail.astro";
+import Phone from "@/components/ui/icons/profil/phone.astro";
+import Localisation from "@/components/ui/icons/localisation.astro";
+import Social from "@/components/ui/icons/profil/linkedin.astro";
+
+export const getStaticPaths = getLangPaths;
+
+const lang = getLang(Astro.url);
+const t = useTranslations(lang);
+const { email, phone, location, profiles } = getCV(lang).basics;
+const linkedIn = profiles.find(({ network }) => network === "LinkedIn");
+---
+
+<Layout title={t("contact.title")}>
+  <Navbar />
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">{t("contact.title")}</Fragment>
+      <Fragment slot="desc">{t("contact.desc")}</Fragment>
+    </Sectionhead>
+
+    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
+      <div>
+        <p class="text-lg leading-relaxed text-skin-muted">{t("contact.intro")}</p>
+        <p class="text-lg leading-relaxed text-skin-muted">{t("contact.cta")}</p>
+        <div class="mt-10">
+          <div class="flex items-center mt-2 space-x-2 text-skin-base">
+            <Localisation />
+            <span>{location.city} - {location.region}</span>
+          </div>
+          <div class="flex items-center mt-2 space-x-2 text-skin-base">
+            <Mail />
+            <a href={`mailto:${email}`}>{email}</a>
+          </div>
+          {linkedIn && (
+            <div class="flex items-center mt-2 space-x-2 text-skin-base">
+              <Social />
+              <a href={linkedIn.url}>{linkedIn.url.replace("https://", "")}</a>
+            </div>
+          )}
+          <div class="flex items-center mt-2 space-x-2 text-skin-base">
+            <Phone />
+            <a class="flex items-center mt-2 space-x-2 text-skin-base font-bold" href={`tel:${phone}`}>{phone}</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <Contactform />
+      </div>
+    </div>
+  </Container>
+</Layout>

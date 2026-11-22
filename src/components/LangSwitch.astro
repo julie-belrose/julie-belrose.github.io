@@ -1,0 +1,27 @@
+---
+// Lists every available language; the current one is highlighted, the others link to the same page in that language.
+// Styled like ThemeSwitch so both sit together in the navbar.
+import Globe from "./ui/icons/globe.astro";
+import { LANGS, getLang, localizePath, useTranslations } from "@/i18n/utils";
+
+const lang = getLang(Astro.url);
+const t = useTranslations(lang);
+---
+
+<nav aria-label={t("nav.languages")} class="no-print group/lang flex items-center gap-2 py-2 text-sm uppercase leading-6 lg:ml-3 lg:mr-5">
+	<span class="text-skin-base transition-transform ease-in-out group-hover/lang:rotate-45"><Globe /></span>
+	{
+		LANGS.map((code, index) => (
+			<Fragment>
+				{index > 0 && <span class="text-skin-muted" aria-hidden="true">|</span>}
+				{code === lang ? (
+					<span aria-current="true" class="font-semibold text-skin-hue">{code}</span>
+				) : (
+					<a href={localizePath(Astro.url.pathname, code)} hreflang={code} lang={code} class="text-skin-muted hover:text-skin-base">
+						{code}
+					</a>
+				)}
+			</Fragment>
+		))
+	}
+</nav>

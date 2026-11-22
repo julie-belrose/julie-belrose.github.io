@@ -1,6 +1,6 @@
 ---
+import { getCV, getLang, useTranslations } from "@/i18n/utils";
 import Section from "../Section.astro";
-import { skills } from "@cv";
 
 import HTML from "../ui/icons/Programming/frontend/html.astro";
 import CSS from "../ui/icons/Programming/frontend/css.astro";
@@ -33,6 +33,10 @@ import Gradle from "../ui/icons/Programming/CI-CD/gradle.astro";
 import macOS from "../ui/icons/Programming/system_exploitation/macos.astro";
 import Windows from "../ui/icons/Programming/system_exploitation/windows.astro";
 import Linux from "../ui/icons/Programming/system_exploitation/linux.astro";
+
+const lang = getLang(Astro.url);
+const t = useTranslations(lang);
+const { skills } = getCV(lang);
 
 const SKILLS_ICONS: Record<string, any> = {
 	HTML,
@@ -69,7 +73,7 @@ const SKILLS_ICONS: Record<string, any> = {
 };
 ---
 
-<Section className={Astro.props.className} title="Skills">
+<Section className={Astro.props.className} title={t("section.skills")}>
 	<!-- 2 columns when there is room: small tablets (sm) and large screens (lg).
 	     Between md and lg the page sidebar takes space, so cards stay on 1 column. -->
 	<div class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2">

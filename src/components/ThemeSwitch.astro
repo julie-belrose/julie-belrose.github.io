@@ -1,47 +1,53 @@
 ---
-import Theme from "./ui/icons/themeSwitch.astro";
+// Light/dark toggle. The initial theme is applied in Layout.astro (before paint);
+// the icon is picked by CSS from the "dark" class, so it is right from the first render.
+import Moon from "./ui/icons/moon.astro";
+import Sun from "./ui/icons/sun.astro";
+import { getLang, useTranslations } from "@/i18n/utils";
+
+const t = useTranslations(getLang(Astro.url));
 ---
 
-<div class="no-print inline-flex items-center">
+<button
+	id="themeSwitch"
+	type="button"
+	data-label-to-dark={t("theme.toDark")}
+	data-label-to-light={t("theme.toLight")}
+	class="no-print flex items-center py-2 text-skin-base transition-transform ease-in-out hover:rotate-45"
+>
+	<span class="dark:hidden"><Moon /></span>
+	<span class="hidden dark:inline"><Sun /></span>
+</button>
 
-	<div class="group/theme flex items-center gap-2">
-		<label for="themeSwitch" class="flex items-center gap-1 text-sm font-medium leading-6 text-skin-base transition-transform ease-in-out group-hover/theme:rotate-45"> <Theme /></label>
-		<select id="themeSwitch" name="themeSwitch" class="focus:ring-skin-hue ring-skin-muted block w-full rounded-md border-0 py-1.5  text-skin-base  sm:text-sm">
-			<option value="system">System</option>
-			<option value="dark">Dark</option>
-			<option value="light">Light</option>
-		</select>
-	</div>
+<style>
+	:global(.dark) {
+		color-scheme: dark;
+	}
+</style>
 
-	<style>
-		:global(.dark) {
-			color-scheme: dark;
-		}
-	</style>
+<script>
+	const button = document.getElementById("themeSwitch") as HTMLButtonElement;
+	const root = document.documentElement;
 
-	<script>
-		const select = document.getElementById("themeSwitch") as HTMLSelectElement;
-		const theme = localStorage.getItem("theme");
-		const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+	function updateLabel() {
+		const label = root.classList.contains("dark") ? button.dataset.labelToLight : button.dataset.labelToDark;
+		button.title = label ?? "";
+		button.setAttribute("aria-label", label ?? "");
+	}
 
-		if (theme !== null) {
-			select.value = theme;
-		} else {
-			select.value = systemTheme;
-		}
+	updateLabel();
 
-		function updateTheme(value: string) {
-			const theme = value === "system" ? systemTheme : value;
-			document.documentElement.classList.remove("light", "dark");
-			document.documentElement.classList.add(theme);
-			localStorage.setItem("theme", value);
-		}
+	button.addEventListener("click", () => {
+		const isDark = root.classList.toggle("dark");
+		localStorage.setItem("theme", isDark ? "dark" : "light");
+		updateLabel();
+	});
 
-		updateTheme(select.value);
-
-		select.addEventListener("change", (event: Event) => {
-			const select = event.target as HTMLSelectElement;
-			updateTheme(select.value);
-		});
-	</script>
-</div>
+	// Print in light mode, then restore the current theme.
+	let wasDark = false;
+	window.addEventListener("beforeprint", () => {
+		wasDark = root.classList.contains("dark");
+		root.classList.remove("dark");
+	});
+	window.addEventListener("afterprint", () => root.classList.toggle("dark", wasDark));
+</script>

@@ -1,22 +1,22 @@
 {
   "basics": {
     "name": "Julie Belrose",
-    "label": "Back-End Developer with Full-Stack skills",
+    "label": "Développeuse Full-Stack (Node.js / NestJS / Angular / Java Spring Boot)",
     "image": "/me_avatar2.jpg",
     "email": "juliebelrose.pro@gmail.com",
     "phone": "+33 6 24 59 58 77",
     "url": "https://julie-belrose.github.io/",
-    "summary": "Développeuse back-end avec une expérience en full stack, j’ai contribué à améliorer la stabilité et la qualité des applications grâce à des refactorisations et des optimisations ciblées. ",
-    "summary_second" : "Actuellement, je consolide mes compétences en Node.js, MongoDB et Java/Spring Boot 3, tout en intégrant des pratiques comme le TDD, dans une démarche axée sur la qualité et l’apprentissage continu.",
+    "summary": "Développeuse full-stack avec 2 ans d'expérience en production sur un SaaS en microservices. À l'aise sur toute la stack : Angular et React Native côté front, Node.js, NestJS et Java Spring Boot côté back, PostgreSQL et MongoDB, Docker et CI/CD sur AWS et GCP.",
+    "summary_second": "Titre Concepteur Développeur d'Applications (CDA, Bac+4), certifiée Google AI, AWS et GCP. Un double parcours Art & Tech qui m'apporte une vraie sensibilité produit et UX.",
     "theme": "default",
     "location": {
       "address": "",
-      "postalCode": "69009",
-      "city": "Lyon",
+      "postalCode": "75012",
+      "city": "Paris 12e",
       "countryCode": "FR",
-      "region": "Auvergne-Rhône-Alpes"
+      "region": "Île-de-France"
     },
-    "availability" : "Mobile et disponible immédiatement",
+    "availability": "Disponible pour un CDI à Paris – mobile en France et à l'étranger",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -32,37 +32,45 @@
         "network": "GitHub",
         "username": "julie-belrose",
         "url": "https://github.com/julie-belrose"
+      },
+      {
+        "network": "GitLab",
+        "username": "julie-belrose",
+        "url": "https://gitlab.com/julie-belrose"
       }
     ]
   },
   "work": [
     {
       "name": "UMI",
-      "position": "Développeuse full stack",
+      "position": "Développeuse Full-Stack Node.js / Angular",
       "location_type": "Hybride",
       "location": "Lyon, Auvergne-Rhône-Alpes",
       "url": "https://umi-innovation.com/fr/",
       "startDate": "2021-11-04",
       "endDate": "2023-11-04",
-      "summary": "Développer et maintenir des applications web en utilisant Express.js, Angular et MongoDB. Collaborer avec l'équipe pour mettre en œuvre de nouvelles fonctionnalités et corriger les bugs.",
+      "summary": "Startup SaaS (IA & Big Data, architecture microservices) : développement des fonctionnalités clés d'une plateforme SaaS de quiz avec Node.js, Angular et MongoDB.",
       "highlights": [
-        "Improved website performance by optimizing code"
+        "Amélioration des performances du site grâce à l'optimisation du code"
       ],
       "responsibilities": [
-        "Collaboration avec des développeurs seniors pour concevoir et mettre en œuvre des applications web à l'aide de frameworks JavaScript modernes",
-        "Développement de modules clés pour cinq applications microservices, avec Express.js (Node.js) pour le back-end et Angular (v8-14) pour le front-end",
-        "Optimisation des performances dans les microservices Express.js (Node.js) : gestion des erreurs et amélioration des requêtes",
-       "Conception et maintenance des bases de données avec Mongoose et MongoDB : création de schémas robustes",
-        "Implémentation de fonctionnalités complètes : système de notifications, génération de PDF dynamiques via EJS et Excel",
-        "Collaboration en pair programming pour un système de notifications sur une plateforme sociale",
-        "Création de graphiques interactifs (via Chart.js) pour des dashboards utilisateurs, avec intégration en temps réel des données via l'API",
-        "Qualité et méthodologie : application des pratiques du clean code, revues de code, des tests manuels, et documentation technique des incidents",
-        "Formation en TDD avec Jest : pratique du Test-Driven Development pour le back-end et le front-end, avec l’utilisation de Jest",
-        "Référente du design system : collaboration avec une designer UI/UX et la Product Owner pour garantir la cohérence visuelle",
+        "Collaboration avec des développeurs seniors pour concevoir et mettre en œuvre des applications web avec des frameworks JavaScript modernes",
+        "Développement de modules clés pour cinq applications microservices, avec Express.js (Node.js) pour le back-end et Angular (v8–14) pour le front-end",
+        "Optimisation des performances des microservices Express.js : gestion des erreurs et efficacité des requêtes",
+        "Conception et maintenance des bases de données avec Mongoose et MongoDB : création de schémas robustes",
+        "Implémentation de fonctionnalités complètes : système de notifications, génération de PDF dynamiques via EJS, export Excel",
+        "Pair programming pour développer un système de notifications sur une plateforme sociale",
+        "Création de graphiques interactifs (Chart.js) pour les dashboards utilisateurs, avec intégration des données de l'API en temps réel",
+        "Application des pratiques du clean code, revues de code, tests manuels et documentation technique des incidents",
+        "Formation au TDD avec Jest : pratique du Test-Driven Development côté back-end et front-end",
+        "Référente du design system : collaboration avec la designer UI/UX et la Product Owner pour garantir la cohérence visuelle",
         "Agilité : participation active aux cérémonies Scrum"
       ],
       "achievements": [
-        "Refactorisation stratégique d'une fonctionnalité front-end complexe : optimisé le code Angular pour réduire les incidents de 98 % et améliorer l'expérience utilisateur"
+        "Développement des fonctionnalités métier clés (questions dynamiques) d'une plateforme SaaS de quiz en microservices",
+        "Refonte complète de modules Node.js et Angular : 97 % des bugs traités résolus définitivement",
+        "Amélioration des systèmes de reporting, d'analytics, de notifications in-app et d'alertes e-mail",
+        "Cohérence du design system sur plusieurs applications Angular, en lien avec l'équipe UX/UI"
       ],
       "skills": [
         "MongoDB",
@@ -74,99 +82,162 @@
         "Drone",
         "Rancher",
         "Sentry",
+        "Sonar Cloud",
         "MailGun",
         "Angular",
+        "React",
         "Chartjs",
         "HTML",
         "CSS",
         "SASS",
+        "Git",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "O'clock – O'Coaching (service post-formation)",
+      "position": "Lead Développeuse Back-End",
+      "location_type": "Télétravail",
+      "location": "",
+      "url": "https://oclock.io/",
+      "startDate": "2021-05-01",
+      "endDate": "2021-07-31",
+      "summary": "Développement du back-end d'une plateforme de suivi post-formation connectée à l'API O'clock.",
+      "achievements": [
+        "API REST avec Node.js, Express et PostgreSQL : authentification et intégration de l'API externe O'clock",
+        "Rôle de lead back-end : choix d'architecture, décisions techniques et coordination d'une équipe de 5 personnes"
+      ],
+      "skills": [
+        "NodeJS",
+        "ExpressJS",
+        "PostgreSQL",
+        "JavaScript",
         "Git"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Local Coding Club",
-      "position": "Volunteer",
+      "organization": "Club de code local",
+      "position": "Bénévole",
       "url": "https://codingclub.com/",
       "startDate": "2021-01-01",
       "endDate": "2022-01-01",
-      "summary": "Helped organize coding workshops and mentored new members.",
+      "summary": "Aide à l'organisation d'ateliers de code et mentorat des nouveaux membres.",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "Élue « Bénévole du mois »"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Concepteur développeur d'applications (CDA)",
+      "institution": "Concepteur Développeur d'Applications (CDA)",
       "url": "https://macarriere.m2iformation.fr/offres-alt/concepteur-rice-developpeur-se-d-applications/89/",
-      "area": "M2i",
-      "studyType": "DUT",
+      "area": "M2i - École de formation professionnelle",
+      "studyType": "Titre professionnel RNCP niveau 6 (Bac+4)",
       "startDate": "2025-03-16",
-      "endDate": "2026-03-16",
+      "endDate": "2026-10-15",
       "score": "",
-      "courses": [
-      ]
+      "courses": []
     },
     {
-      "institution": "Formation professionnelle développeuse back-end  Node.js spécialisation data",
-      "url": "https://oclock.io/formations/developpeur-web-web-mobile",
-      "area": "O'clock - École Tech de développement web en téléprésentiel",
-      "studyType": "DUT",
-      "startDate": "2020-12-01",
-      "endDate": "2021-05-01",
-      "score": "",
-      "courses": [
-      ]
-    },
-    {
-      "institution": "Diplôme national d'art conférant grade de Licence",
+      "institution": "Diplôme National d'Art (grade de Licence)",
       "url": "https://esad-talm.fr/fr/les-etudes/l-option-art/art",
-      "area": "École supérieure d'art et de design TALM",
-      "studyType": "License",
+      "area": "TALM – École supérieure d'art et de design",
+      "studyType": "Licence en arts plastiques",
       "startDate": "2015-09-15",
       "endDate": "2018-07-01",
       "score": "",
-      "courses": [
-      ]
+      "courses": []
     },
     {
-      "institution": "Bac Professionnel Communication visuelle option plurimédia",
+      "institution": "Bac Pro Communication visuelle – option plurimédia",
       "url": "https://www.lyceegaramont.fr/bac-pro-ama/",
-      "area": "Lycée Claude-Garamont",
-      "studyType": "Bac",
+      "area": "Lycée Claude-Garamont – École de design",
+      "studyType": "Baccalauréat professionnel",
       "startDate": "2011-09-15",
       "endDate": "2014-07-01",
       "score": "",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
   "certificates": [
     {
-      "name": "Titre professionnel développeur web et web mobile (Bac+2 / Brevet Fédéral)",
-      "date": "2022-05-01",
-      "issuer": "O'clock - École Tech de développement web en téléprésentiel"
+      "name": "Titre professionnel - Concepteur Développeur d'Applications (CDA, RNCP niveau 6 / Bac+4)",
+      "date": "2026-10-15",
+      "issuer": "M2i Formation – Lyon",
+      "url": "https://macarriere.m2iformation.fr/offres-alt/concepteur-rice-developpeur-se-d-applications/89/"
     },
     {
-      "name": "Maîtrise de la qualité en projet web - niveau confirmé (720 points)",
+      "name": "Titre professionnel - Développeur Web et Web Mobile (Bac+2 / Brevet fédéral)",
+      "date": "2022-05-01",
+      "issuer": "O'clock – École de développement web en télétravail"
+    },
+    {
+      "name": "Certification Qualité des projets web – niveau confirmé (720 points)",
       "date": "2021-11-01",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Opquast",
+      "issuer": "Opquast - Plateforme de formation professionnelle",
       "url": "https://oqs.li/85O93J"
     }
   ],
   "courses": [
     {
+      "name": "Spring Boot 3 - Simplifier le développement d'applications Java",
+      "date": "2024-08-01",
+      "issuer": "Dyma.fr - Plateforme de formation professionnelle",
+      "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/64799f7159ebb4f1e99bfb8b",
+      "category": "Back-end"
+    },
+    {
+      "name": "Java SE 21 - Langage polyvalent pour applications multiplateformes",
+      "date": "2024-08-01",
+      "issuer": "Dyma.fr - Plateforme de formation professionnelle",
+      "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/6410ba8d79bdeb036b8383b9",
+      "category": "Back-end"
+    },
+    {
+      "name": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
+      "date": "2024-12-01",
+      "issuer": "Google Cloud Platform - Coursera",
+      "url": "https://www.coursera.org/learn/google-cloud-java-spring",
+      "teaching": "Enseigné en anglais",
+      "courses": [
+        "Google Cloud Platform",
+        "Cloud SQL",
+        "Pub/Sub",
+        "Spring Integration",
+        "Cloud Trace"
+      ],
+      "category": "Cloud"
+    },
+    {
+      "name": "Formation Software Craftsmanship",
+      "date": "2024-10-01",
+      "issuer": "Plateforme spécialisée en développement web",
+      "url": "https://academy.captaindev.io/coding-dojo-zero-to-craft",
+      "category": "Software Craftsmanship"
+    },
+    {
+      "name": "Foundations of Prompt Engineering",
+      "date": "2025-01-06",
+      "issuer": "AWS Training Online - Plateforme de formation professionnelle",
+      "url": "https://courses.consensys.net/certificates/4wxksr5c35",
+      "teaching": "Enseigné en anglais",
+      "category": "Intelligence artificielle"
+    },
+    {
+      "name": "Google AI Essentials",
+      "date": "2024-09-01",
+      "issuer": "Google - Coursera",
+      "teaching": "Enseigné en anglais",
+      "category": "Intelligence artificielle"
+    },
+    {
       "name": "Fundamentals of Card Payment",
       "date": "2025-01-29",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "PayTech Academy",
+      "issuer": "PayTech Academy - Plateforme de formation professionnelle",
       "url": "https://courses.paytech-academy.com/certificates/y9djqehbqc",
-      "teaching": "Enseigné  en Anglais",
+      "teaching": "Enseigné en anglais",
       "courses": [
         "The actors",
         "Transaction stages",
@@ -182,325 +253,347 @@
         "EMV & Contactless transactions",
         "Online PIN",
         "Certification & Compliance"
-      ]
+      ],
+      "category": "Fintech & Blockchain"
     },
     {
-      "name": "Foundations of Prompt Engineering",
+      "name": "Blockchain Essentials - An Introduction to Blockchain",
       "date": "2025-01-06",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "AWS Training Online",
+      "issuer": "Consensys Academy - Plateforme de formation professionnelle",
       "url": "https://courses.consensys.net/certificates/4wxksr5c35",
-      "teaching": "Enseigné  en Anglais"
-    },
-    {
-      "name": "Blockchain Essentials: An Introduction to Blockchain",
-      "date": "2025-01-06",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Consensys Academy",
-      "url": "https://courses.consensys.net/certificates/4wxksr5c35",
-      "teaching": "Enseigné  en Anglais",
-      "courses": [
-        "Google Cloud Platform",
-        "Cloud SQL",
-        "Pub/Sub",
-        "Spring Integration",
-        "Cloud Trace"
-      ]
-    },
-    {
-      "name": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
-      "date": "2024-12-01",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Google Cloud Platform (Coursera) - En cours ",
-      "url": "https://www.coursera.org/learn/google-cloud-java-spring",
-      "teaching": "Enseigné  en Anglais",
-      "courses": [
-        "Google Cloud Platform",
-        "Cloud SQL",
-        "Pub/Sub",
-        "Spring Integration",
-        "Cloud Trace"
-      ]
-    },
-    {
-      "name": "Formation de software craftsmanship",
-      "date": "2024-10-01",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Plateforme spécialisée en développement web",
-      "url": "https://academy.captaindev.io/coding-dojo-zero-to-craft"
-    },
-    {
-      "name": "Spring Boot 3 : Simplife le développement d'applications Java",
-      "date": "2024-08-01",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Dyma.fr",
-      "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/64799f7159ebb4f1e99bfb8b"
-    },
-    {
-      "name": "Java SE 21 : Langage polyvalent pour applications multiplateformes",
-      "date": "2024-08-01",
-      "startDate": "",
-      "endDate": "",
-      "issuer": "Dyma.fr",
-      "url": "https://dyma.fr/certification/65d610fd076d16950ba61beb/6410ba8d79bdeb036b8383b9"
+      "teaching": "Enseigné en anglais",
+      "courses": [],
+      "category": "Fintech & Blockchain"
     }
   ],
   "skills": [
-  ],
-  "backend": [
     {
-      "icon": "NodeJS",
-      "name": "Node.js",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
+      "category": "Back-end",
+      "items": [
+        {
+          "icon": "NodeJS",
+          "name": "Node.js",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "JavaScript",
+            "Server"
+          ]
+        },
+        {
+          "icon": "NestJS",
+          "level": "Intermediate",
+          "keywords": [
+            "Backend",
+            "Node.js",
+            "TypeScript"
+          ]
+        },
+        {
+          "icon": "ExpressJS",
+          "name": "Express.js",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "JavaScript",
+            "Server"
+          ]
+        },
+        {
+          "icon": "Java",
+          "name": "Java SE 21",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server"
+          ]
+        },
+        {
+          "icon": "SpringBoot",
+          "name": "Spring Boot 3",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server"
+          ]
+        }
       ]
     },
     {
-      "icon": "ExpressJS",
-      "name": "Express.js",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
+      "category": "Front-end & Mobile",
+      "items": [
+        {
+          "icon": "Angular",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Frontend"
+          ]
+        },
+        {
+          "icon": "React",
+          "level": "Intermediate",
+          "keywords": [
+            "Frontend"
+          ]
+        },
+        {
+          "icon": "TypeScript",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Frontend",
+            "Backend",
+            "JavaScript Superset"
+          ]
+        },
+        {
+          "icon": "JavaScript",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Frontend",
+            "Backend",
+            "Fullstack"
+          ]
+        },
+        {
+          "icon": "SASS",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Frontend",
+            "Responsive Design"
+          ]
+        },
+        {
+          "icon": "Tailwind",
+          "name": "Tailwind CSS",
+          "level": "Intermediate",
+          "keywords": [
+            "Frontend",
+            "CSS"
+          ]
+        },
+        {
+          "icon": "Expo",
+          "level": "junior",
+          "keywords": [
+            "Mobile",
+            "React Native"
+          ]
+        }
       ]
     },
     {
-      "icon" : "Java",
-      "name": "Java SE 21",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server"
+      "category": "Bases de données",
+      "items": [
+        {
+          "icon": "PostgreSQL",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server"
+          ]
+        },
+        {
+          "icon": "SQL",
+          "level": "Intermediate",
+          "keywords": [
+            "Databases",
+            "SQL",
+            "Data Storage",
+            "Backend"
+          ]
+        },
+        {
+          "icon": "MongoDB",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Base de donnée",
+            "NoSQL"
+          ]
+        },
+        {
+          "icon": "Mongoose",
+          "level": "Intermediate",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Base de donnée",
+            "NoSQL",
+            "ODM"
+          ]
+        },
+        {
+          "icon": "Supabase",
+          "level": "junior",
+          "keywords": [
+            "Database",
+            "Backend as a Service"
+          ]
+        }
       ]
     },
     {
-      "icon" : "SpringBoot",
-      "name": "Spring Boot 3",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server"
-      ]
-    }
-  ],
-  "database": [
-    {
-      "icon": "MongoDB",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Base de donnée",
-        "NoSQL"
-      ]
-    },
-    {
-      "icon": "Mongoose",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Base de donnée",
-        "NoSQL",
-        "ODM"
-      ]
-    },
-    {
-      "icon": "SQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
-    },
-    {
-      "icon": "PostgreSQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server"
-      ]
-    }
-  ],
-  "ci": [
-    {
-      "icon" : "Maven",
-      "name": "Apache Maven",
-      "level": "junior",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Build"
+      "category": "Tests & Qualité",
+      "items": [
+        {
+          "icon": "Jest",
+          "level": "junior",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Test",
+            "TDD",
+            "Test-Driven-development"
+          ]
+        },
+        {
+          "icon": "JUnit",
+          "name": "JUnit 5",
+          "level": "junior",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Test",
+            "TDD",
+            "Test-Driven-development"
+          ]
+        },
+        {
+          "icon": "Tests",
+          "name": "TDD",
+          "level": "junior",
+          "keywords": [
+            "Software craftsmanship",
+            "TDD",
+            "Test-driven-development"
+          ]
+        },
+        {
+          "icon": "Tests",
+          "name": "Software craftsmanship",
+          "level": "junior",
+          "keywords": [
+            "Software craftsmanship",
+            "TDD",
+            "Test-driven-development"
+          ]
+        }
       ]
     },
     {
-      "icon": "Gradle",
-      "level": "junior",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Build"
-      ]
-    }
-  ],
-  "cd": [
-    {
-      "icon": "GitHub",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
-      ]
-    }
-  ],
-  "test": [
-    {
-      "icon": "Jest",
-      "level": "junior",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Test",
-        "TDD",
-        "Test-Driven-development"
-      ]
-    },
-    {
-      "icon" : "JUnit",
-      "name": "JUnit 5",
-      "level": "junior",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "Test",
-        "TDD",
-        "Test-Driven-development"
-      ]
-    },
-    {
-      "icon": "Tests",
-      "level": "junior",
-      "keywords": [
-        "Software craftsmanship",
-        "TDD",
-        "Test-driven-development"
-      ]
-    },
-    {
-      "icon": "Tests",
-      "name": "Software craftsmanship",
-      "level": "junior",
-      "keywords": [
-        "Software craftsmanship",
-        "TDD",
-        "Test-driven-development"
-      ]
-    }
-  ],
-  "frontend": [
-    {
-      "icon": "Angular",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend"
+      "category": "Outils & DevOps",
+      "items": [
+        {
+          "icon": "Git",
+          "level": "Intermediate",
+          "keywords": [
+            "Version Control",
+            "Collaboration",
+            "Source Code"
+          ]
+        },
+        {
+          "icon": "GitHub",
+          "level": "Intermediate",
+          "keywords": [
+            "Version Control",
+            "Collaboration",
+            "Source Code",
+            "Git"
+          ]
+        },
+        {
+          "icon": "GitHubAction",
+          "name": "GitHub Actions",
+          "level": "junior",
+          "keywords": [
+            "CI/CD"
+          ]
+        },
+        {
+          "icon": "Docker",
+          "level": "junior",
+          "keywords": [
+            "Containers",
+            "DevOps"
+          ]
+        },
+        {
+          "icon": "Maven",
+          "name": "Apache Maven",
+          "level": "junior",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Build"
+          ]
+        },
+        {
+          "icon": "Gradle",
+          "level": "junior",
+          "keywords": [
+            "Web Development",
+            "Backend",
+            "Server",
+            "Build"
+          ]
+        }
       ]
     },
     {
-      "icon": "SASS",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
-    },
-    {
-      "icon": "JavaScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "icon": "TypeScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    }
-  ],
-  "utils": [
-    {
-      "icon": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    }
-  ],
-  "system":[
-    {
-      "icon": "macOS",
-      "level": "Expert",
-      "keywords": [
-        "System exploitation"
-      ]
-    },
-    {
-      "icon": "Linux",
-      "name": "Linux (Ubuntu)",
-      "level": "Expert",
-      "keywords": [
-        "System exploitation"
-      ]
-    },
-    {
-      "icon": "Windows",
-      "level": "Expert",
-      "keywords": [
-        "System exploitation"
+      "category": "Systèmes d'exploitation",
+      "items": [
+        {
+          "icon": "macOS",
+          "level": "Expert",
+          "keywords": [
+            "System exploitation"
+          ]
+        },
+        {
+          "icon": "Linux",
+          "name": "Linux (Ubuntu)",
+          "level": "Expert",
+          "keywords": [
+            "System exploitation"
+          ]
+        },
+        {
+          "icon": "Windows",
+          "level": "Expert",
+          "keywords": [
+            "System exploitation"
+          ]
+        }
       ]
     }
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Français",
+      "fluency": "Langue maternelle",
+      "icon": "Lang"
+    },
+    {
+      "language": "Anglais",
       "fluency": "B2",
       "url": "https://cert.efset.org/fr/KaxuTk",
-      "icon" : "Lang"
+      "icon": "Lang"
     }
   ],
   "interests": [
@@ -509,7 +602,8 @@
       "keywords": [
         "AI",
         "Blockchain"
-      ]
+      ],
+      "icon": "Blockchain"
     },
     {
       "name": "Ethereum",
@@ -517,26 +611,30 @@
         "AI",
         "Blockchain",
         "Ethereum"
-      ]
+      ],
+      "icon": "Ethereum"
     },
     {
       "name": "Web3",
       "keywords": [
         "AI",
         "Blockchain"
-      ]
+      ],
+      "icon": "Web3"
     },
     {
-      "name": "AI",
+      "name": "IA",
       "keywords": [
         "AI"
-      ]
+      ],
+      "icon": "AI"
     },
     {
-      "name": "Cybersecurity",
+      "name": "Cybersécurité",
       "keywords": [
         "AI"
-      ]
+      ],
+      "icon": "Cybersecurity"
     }
   ],
   "references": [
@@ -547,134 +645,257 @@
   ],
   "projects": [
     {
+      "name": "GhostWaster – Application de signalement d'encombrants",
+      "isActive": true,
+      "description": "Projet de certification CDA : une application mobile citoyenne pour signaler et collecter les encombrants dans les grandes villes, développée en full stack en cumulant les rôles de Product Owner, développeuse et UX/UI.",
+      "highlights": [
+        "API REST avec NestJS et TypeScript : authentification JWT (Passport), validation avec class-validator, documentation Swagger",
+        "Base PostgreSQL hébergée sur Supabase, avec PostGIS pour les signalements géolocalisés",
+        "Application mobile multiplateforme avec React Native et Expo (Expo Router, géolocalisation, sélection d'images, notifications push)",
+        "Tests sur base réelle : specs Vitest qui exécutent le SQL des repositories sur un Postgres + PostGIS en mémoire (PGlite)",
+        "Contrôle de dérive entre le schéma SQL et les migrations Supabase",
+        "Tests end-to-end avec Playwright, qualité suivie avec SonarCloud et GitLab CI"
+      ],
+      "technos": [
+        {
+          "icon": "NestJS",
+          "name": "NestJS"
+        },
+        {
+          "icon": "TypeScript",
+          "name": "TypeScript"
+        },
+        {
+          "icon": "PostgreSQL",
+          "name": "PostgreSQL"
+        },
+        {
+          "icon": "Supabase",
+          "name": "Supabase"
+        },
+        {
+          "icon": "React",
+          "name": "React Native"
+        },
+        {
+          "icon": "Expo",
+          "name": "Expo"
+        },
+        {
+          "icon": "Docker",
+          "name": "Docker"
+        }
+      ],
+      "url": "https://ghost-waster.onrender.com"
+    },
+    {
+      "name": "Application de signalement de déchets",
+      "isActive": true,
+      "description": "Projet de groupe full stack mené en Agile Scrum, qui permet aux citoyens, agents et administrateurs de signaler et gérer efficacement les problèmes de déchets en ville.",
+      "highlights": [
+        "Développé en équipe de 3 avec les pratiques Agile Scrum (sprints, daily, rétrospectives)",
+        "Application web full stack : back-end Node.js + Express.js, front-end HTML/CSS/JS",
+        "Architecture Domain-Driven Design (DDD) avec une séparation claire des responsabilités (controller, service, entity, dto, mapper, schema)",
+        "Double base de données : MongoDB et MySQL",
+        "Configuration par environnement avec .env pour le dev et la prod",
+        "Middlewares de gestion des erreurs, d'authentification et des réponses 404",
+        "Intégration de Commitizen pour des messages de commit sémantiques et standardisés",
+        "Front-end structuré en composants modulaires, pages et styles réutilisables"
+      ],
+      "github": "https://github.com/julie-belrose/Fil_Rouge/tree/development",
+      "technos": [
+        {
+          "icon": "NodeJS",
+          "name": "Node.js"
+        },
+        {
+          "icon": "ExpressJS",
+          "name": "Express.js"
+        },
+        {
+          "icon": "MongoDB",
+          "name": "MongoDB"
+        },
+        {
+          "icon": "MySQL",
+          "name": "MySQL"
+        },
+        {
+          "icon": "HTML",
+          "name": "HTML5"
+        },
+        {
+          "icon": "CSS",
+          "name": "CSS3"
+        },
+        {
+          "icon": "JavaScript",
+          "name": "JavaScript"
+        },
+        {
+          "icon": "Agile",
+          "name": "Agile Scrum"
+        }
+      ]
+    },
+    {
+      "name": "Billetterie",
+      "isActive": true,
+      "description": "Une application Java simple pour gérer des événements et des réservations de billets via un menu en console.",
+      "highlights": [
+        "Gestion des clients, événements et billets avec les actions CRUD de base",
+        "Réservation de billets par catégorie de place (Standard, Gold, VIP) avec contrôle de la capacité",
+        "Menu clair avec des instructions pour guider l'utilisateur",
+        "Gestion des erreurs avec des messages personnalisés quand une donnée manque ou qu'un événement est complet",
+        "Structure propre qui sépare les données, les services et l'interface utilisateur",
+        "Facilement extensible : peut être connectée plus tard à une base de données ou à une interface graphique"
+      ],
+      "github": "https://github.com/julie-belrose/Ticket-office",
+      "technos": [
+        {
+          "icon": "Java",
+          "name": "Java 21"
+        },
+        {
+          "icon": "Maven",
+          "name": "Maven"
+        }
+      ]
+    },
+    {
+      "name": "API de gestion d'une boutique de mode",
+      "isActive": true,
+      "description": "Une API back-end Java pour gérer le stock, les clients et les ventes d'une boutique de mode, avec une architecture inspirée du Domain-Driven Design.",
+      "highlights": [
+        "Architecture en couches inspirée des principes du Domain-Driven Design",
+        "Packages dédiés pour le domain, les dto, les mappers, les services, les repositories et la gestion des exceptions",
+        "Système CRUD générique (GenericCrud, GenericMapper, GenericCrudController) pour des opérations réutilisables",
+        "Couches DTO et Mapper pour séparer proprement les entités métier des payloads de l'API",
+        "Gestion robuste des erreurs avec des exceptions personnalisées (ex. FurnitureNotFoundException)",
+        "CRUD complet pour les clients, produits, paniers et ventes",
+        "Attributs basés sur des enums pour les catégories de produits et le statut des ventes",
+        "Architecture extensible, prête à accueillir de nouvelles fonctionnalités ou entités"
+      ],
+      "github": "https://github.com/julie-belrose/API_Furniture_Management",
+      "technos": [
+        {
+          "icon": "Java",
+          "name": "Java 21"
+        },
+        {
+          "icon": "SpringBoot",
+          "name": "Spring Boot 3"
+        },
+        {
+          "icon": "Hibernate",
+          "name": "Hibernate ORM"
+        },
+        {
+          "icon": "MySQL",
+          "name": "MySQL"
+        },
+        {
+          "icon": "Lombok",
+          "name": "Lombok"
+        },
+        {
+          "icon": "Maven",
+          "name": "Apache Maven"
+        }
+      ]
+    },
+    {
+      "name": "Mini Pokédex (React)",
+      "isActive": true,
+      "description": "Un projet React ludique pour rechercher et filtrer des Pokémon, avec un état conservé entre les sessions.",
+      "highlights": [
+        "Recherche qui mémorise le dernier Pokémon cherché, même après un rechargement de la page",
+        "Utilisation des hooks React (useState, useEffect) pour gérer l'état et le synchroniser avec le localStorage",
+        "Création d'un hook personnalisé pour rendre la logique localStorage réutilisable et plus lisible",
+        "Filtrage en temps réel par nom et par type de Pokémon, sans tenir compte de la casse",
+        "Interface simple mais interactive : recherche, filtre par type et message quand aucun résultat"
+      ],
+      "github": "https://github.com/julie-belrose/Mini_Pokedex",
+      "technos": [
+        {
+          "icon": "React",
+          "name": "React"
+        },
+        {
+          "icon": "TypeScript",
+          "name": "TypeScript"
+        },
+        {
+          "icon": "Vite",
+          "name": "Vite"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio personnel",
+      "isActive": true,
+      "description": "Un site de portfolio personnel pour présenter mes projets et mes compétences.",
+      "highlights": [
+        "Création des pages Astro",
+        "Développement de composants Astro sur mesure",
+        "Intégration d'un formulaire de contact avec Web3form",
+        "Mise en place de la barre de navigation",
+        "Site bilingue français / anglais",
+        "Déploiement sur GitHub Pages via GitHub Actions"
+      ],
+      "github": "https://github.com/julie-belrose/julie-belrose.github.io",
+      "technos": [
+        {
+          "icon": "AstroIcon",
+          "name": "Astro"
+        },
+        {
+          "icon": "Tailwind"
+        },
+        {
+          "icon": "TypeScript"
+        },
+        {
+          "icon": "GitHubAction",
+          "name": "GitHub Actions"
+        }
+      ]
+    },
+    {
       "name": "Service post-formation O'clock",
       "isActive": true,
-      "description": "Conception d'un site web relié à l'API d'O'clock pour faciliter le suivi des étudiants après leur formation",
+      "description": "Conception d'une plateforme web connectée à l'API O'clock pour faciliter le suivi des étudiants après leur formation.",
       "highlights": [
-        "Projet de développement de fin de formation",
-        "Service de post-formation pour les étudiants O'clock",
-        "Outil pour suivre les 30 étudiants par promotion, avec 4 promotions par mois",
+        "Projet de fin de formation",
+        "Service d'accompagnement pour les diplômés O'clock",
+        "Outil pour suivre 30 étudiants par promotion, avec 4 promotions par mois",
         "Espaces distincts pour les étudiants et les administrateurs",
-        "Suivi personnalisé des apprenants, avec gestion des 30 étudiants par promotion, et 4 promotions par mois",
-        "Gestion de la session via l'utilisation de cookies",
-        "Gestion de l'authentification via OAuth 2.0 pour garantir la sécurité des accès",
-        "Déploiement de l'application sur la plateforme Heroku"
+        "Suivi personnalisé des apprenants avec gestion des promotions",
+        "Gestion de la session avec des cookies",
+        "Authentification basée sur OAuth 2.0 pour sécuriser les accès",
+        "Déploiement sur la plateforme Heroku"
       ],
       "url": "https://www.youtube.com/live/LvqX92TIq8s?si=UXyIQCmjTwz-Df7u&t=1339",
       "github": "https://github.com/julie-belrose/Apotheose_O-Clock_Coaching",
       "technos": [
         {
-          "icon" : "React"
+          "icon": "React"
         },
         {
-          "icon" : "NodeJS",
+          "icon": "NodeJS",
           "name": "Node.js"
         },
         {
-          "icon" : "SQL"
+          "icon": "SQL"
         },
         {
-          "icon" : "PostgreSQL"
+          "icon": "PostgreSQL"
         },
         {
-          "icon" : "Sqitch"
+          "icon": "Sqitch"
         },
         {
-          "icon" : "Heroku"
-        }
-      ]
-    },
-    {
-      "name": "Tennis App",
-      "isActive": true,
-      "description": "Une application back-end pour créer un classement de joueurs de tennis",
-      "highlights": [
-        " Projet inspiré de la formation sur Dyma.fr",
-        "Développée avec Java SE 21 et Spring Boot 3",
-        "Architecture MVC pour une séparation claire des responsabilités",
-        "Mise en place de tests unitaires et d'intégration avec JUnit5",
-        "Architecture CRUD pour la gestion des données des joueurs",
-        "Conteneurisation avec Docker pour faciliter le déploiement"
-      ],
-      "github": "https://github.com/julie-belrose/tennis",
-      "technos": [
-        {
-          "icon" : "Java",
-          "name": "Java SE 21"
-        },
-        {
-          "icon" : "SpringBoot",
-          "name": "Spring Boot 3"
-        },
-        {
-          "icon" : "Spring"
-        },
-        {
-          "icon" : "Docker"
-        },
-        {
-          "icon" : "JUnit",
-          "name": "JUnit"
-        }
-      ]
-    },
-    {
-      "name": "Initiation à une dApps",
-      "isActive": true,
-      "description": "Un workshop provenant la conférence React Advanced 2021",
-      "highlights": [
-        "Création d'une application décentralisée (dApp)",
-        "Apprentissage de la création d'un portefeuille Metamask",
-        "Déploiement et gestion d'un smart contract (application Web3)",
-        "Utilisation de React pour l'interface utilisateur",
-        "Configuration de Vite pour le développement rapide",
-        "Intégration d'Ether.js pour interagir avec la blockchain",
-        "Utilisation de Hardhat pour le développement et le test des smart contracts"
-      ],
-      "github": "https://github.com/julie-belrose/Workshop_Ethereum-fullstack",
-      "technos": [
-        {
-          "icon" : "React"
-        },
-        {
-          "icon" : "Vite"
-        },
-        {
-          "icon" : "Etherjs",
-          "name": "Ether.js"
-        },
-        {
-          "icon" : "Hardhat"
-        }
-      ]
-    },
-    {
-      "name": "Portfolio Personnel",
-      "isActive": true,
-      "description": "Un site web de portfolio personnel pour présenter mes projets et mes compétences.",
-      "highlights": [
-        "Création des pages astro",
-        "Création de composant astro",
-        "Ajout d'un formulaire avec Web3form",
-        "Ajout d'une barre de navigation",
-        "Création des pages Astro",
-        "Déploiement avec GitHub Pages via GitHub Actions"
-      ],
-      "github": "https://github.com/julie-belrose/julie-belrose.github.io",
-      "technos": [
-        {
-          "icon" : "AstroIcon",
-          "name": "Astro"
-        },
-        {
-          "icon" : "Tailwind"
-        },
-        {
-          "icon" : "TypeScript"
-        },
-        {
-          "icon" : "GitHubAction",
-          "name": "GitHub Actions"
+          "icon": "Heroku"
         }
       ]
     }
